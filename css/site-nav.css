@@ -30,3 +30,8 @@
 @media(max-width:760px){.site-header .locale-indicator{font-size:12px;gap:6px}.uae-flag{width:31px;height:19px}}
 @media(max-width:410px){.site-header .locale-indicator{font-size:11px;gap:4px}.uae-flag{width:26px;height:17px}}
 
+
+.site-header .brand{gap:0;letter-spacing:normal}
+.site-header .brand-logo{display:block;width:180px;height:auto;max-height:44px;object-fit:contain}
+@media(max-width:760px){.site-header .brand-logo{width:155px;max-height:38px}}
+@media(max-width:410px){.site-header .brand-logo{width:128px;max-height:34px}}

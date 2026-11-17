@@ -27,6 +27,59 @@ navigation?.querySelectorAll('a[href]').forEach((link) => {
   if (link.getAttribute('href') === currentPage) link.setAttribute('aria-current', 'page');
 });
 
+if (productNav) {
+  productNav.querySelectorAll('.product-nav-group').forEach((group, index) => {
+    const heading = group.querySelector(':scope > a');
+    const menu = group.querySelector(':scope > .product-nav-menu');
+    if (!heading || !menu) return;
+    const caret = heading.querySelector('.product-nav-caret');
+    if (!group.querySelector(':scope > .product-nav-toggle')) {
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'product-nav-toggle';
+      toggle.setAttribute('aria-label', `Open ${heading.textContent.trim()} menu`);
+      toggle.setAttribute('aria-expanded', 'false');
+      menu.id ||= `product-nav-menu-${index + 1}`;
+      toggle.setAttribute('aria-controls', menu.id);
+      const icon = document.createElement('i');
+      icon.className = 'product-nav-caret';
+      icon.setAttribute('aria-hidden', 'true');
+      toggle.append(icon);
+      caret?.remove();
+      group.append(toggle);
+    }
+  });
+
+  const closeProductMenus = (except) => {
+    productNav.querySelectorAll('.product-nav-group.is-open').forEach((group) => {
+      if (group === except) return;
+      group.classList.remove('is-open');
+      group.querySelector('.product-nav-toggle')?.setAttribute('aria-expanded', 'false');
+    });
+  };
+
+  productNav.querySelectorAll('.product-nav-toggle').forEach((toggle) => {
+    toggle.addEventListener('click', () => {
+      const group = toggle.closest('.product-nav-group');
+      const shouldOpen = !group.classList.contains('is-open');
+      closeProductMenus(group);
+      group.classList.toggle('is-open', shouldOpen);
+      toggle.setAttribute('aria-expanded', String(shouldOpen));
+      toggle.setAttribute('aria-label', `${shouldOpen ? 'Close' : 'Open'} ${group.querySelector(':scope > a').textContent.trim()} menu`);
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!productNav.contains(event.target)) closeProductMenus();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const openGroup = productNav.querySelector('.product-nav-group.is-open');
+    if (!openGroup) return;
+    closeProductMenus();
+    openGroup.querySelector('.product-nav-toggle')?.focus();
+  });
+}
 const heroBackground = document.querySelector('.hero-background-image');
 if (heroBackground && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const heroSlides = ['img/1.png', 'img/2.png', 'img/3.png', 'img/4.png', 'img/5.png', 'img/6.png'];
