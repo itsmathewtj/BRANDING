@@ -51,3 +51,8 @@
 .product-nav-group:hover>.product-nav-toggle .product-nav-caret,.product-nav-group:focus-within>.product-nav-toggle .product-nav-caret,.product-nav-group.is-open>.product-nav-toggle .product-nav-caret{transform:rotate(225deg) translate(-1px,-1px)}
 .product-nav-toggle:focus-visible{outline:2px solid #e97800;outline-offset:2px;border-radius:4px}
 @media(max-width:1180px){.product-nav{overflow-x:auto;overflow-y:visible}.product-nav-toggle{flex:none}.product-nav-group.is-open>.product-nav-menu{position:fixed;top:114px;left:12px;right:12px;width:auto;min-width:0;max-width:520px;margin:0 auto}}
+/* Keep both navigation layers in the same stacking context; the product bar must not cover the header dropdown. */
+.site-header{z-index:300;isolation:isolate}.site-header .main-nav{position:relative;z-index:301}.site-header .all-categories-dropdown{position:relative;z-index:302}.site-header .all-categories-menu{z-index:303}.product-nav{z-index:100}
+.product-nav .product-nav-event{height:40px;flex:none;display:flex;align-items:center;justify-content:center;padding:0 19px;border:1px solid #087fa7;border-radius:999px;background:#fff;color:#087fa7;font-size:13px;font-weight:700;transition:background .2s,color .2s,transform .2s}.product-nav .product-nav-event:hover{background:#087fa7;color:#fff;transform:translateY(-1px)}
+@media(max-width:1180px){.product-nav .product-nav-event{margin-left:auto;min-width:max-content}.site-header .all-categories-menu{z-index:303}}
+@media(max-width:760px){.product-nav .product-nav-event{height:34px;padding:0 13px;font-size:11px}}

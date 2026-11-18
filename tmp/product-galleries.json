@@ -1,0 +1,2015 @@
+﻿{
+    "books":  [
+                  {
+                      "heading":  "Standard Books",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/Perfect_Thick_Spine_Book_1.webp",
+                                        "name":  "Perfect Thick Spine Books"
+                                    }
+                                ]
+                  },
+                  {
+                      "heading":  "Premium Books",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/Hard_Case_Book_1.webp",
+                                        "name":  "Hard Case Book"
+                                    }
+                                ]
+                  },
+                  {
+                      "heading":  "Uniquely Designed Books",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/3D_UV_Books_covers.webp",
+                                        "name":  "3D UV Books"
+                                    }
+                                ]
+                  }
+              ],
+    "magazines":  [
+                      {
+                          "heading":  "Laminated Magazines",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/09ea2d00-e75d-44b1-b72c-73d38182783b1719253286008lamainate-mag-1.jpg",
+                                            "name":  "Laminated Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/0ab65b20-5cfb-48c5-87b2-46679dcab6bd1719253285907lamainate-mag-2.jpg",
+                                            "name":  "Laminated Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/156ae6dc-475b-498f-9299-d03cedb422b61719253285899lamainate-mag.jpg",
+                                            "name":  "Laminated Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/cd437491-a283-4207-8eb1-513bb5067a751719253286038lamainate-mag-23.jpg",
+                                            "name":  "Laminated Magazines"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Perfect Bind Magazines",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/5dbf7e3d-e884-4da3-a7b6-b1ba536458b91719253591538per-mag-13.jpg",
+                                            "name":  "Perfect Bind Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/8b17e8b3-bf87-48e0-adc7-34103e6f03471719253591447per-mag.jpg",
+                                            "name":  "Perfect Bind Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/ad98f496-458b-4abe-b1b0-1acf737449331719253591486per-mag-1.jpg",
+                                            "name":  "Perfect Bind Magazines"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Raised Shiny Magazines",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/3821f5d8-cae4-460a-a0b9-9dc9d3fd0de717192538364633D_UV_Magazine_3.png",
+                                            "name":  "Raised Shiny Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/3db6f5f9-e9e9-40be-8e16-f981a1fedf5717192538364163D_UV_Magazine_1.png",
+                                            "name":  "Raised Shiny Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/91ee67d9-1a1b-41c3-bbe3-3778672b362017192538366153D_UV_Magazine_5.png",
+                                            "name":  "Raised Shiny Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/f6a5a501-9872-4762-9244-55ab151c1a6a17192538366183D_UV_Magazine_4.png",
+                                            "name":  "Raised Shiny Magazines"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/fe7668ce-c639-4d7d-b47f-892aba44e36b17192538364593D_UV_Magazine_2.png",
+                                            "name":  "Raised Shiny Magazines"
+                                        }
+                                    ]
+                      }
+                  ],
+    "notebook":  [
+                     {
+                         "heading":  "Notebooks",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/27eeb114-7ecc-4905-a94b-74d393f4d0901716198412331Notebooks_2.webp",
+                                           "name":  "Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/4c56c4bc-5480-4094-a855-8734257a5fd21716198411936Notebooks_3.webp",
+                                           "name":  "Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/769a29bf-b07d-448f-9462-8c0177f869e81716198412344Notebooks_4.webp",
+                                           "name":  "Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/838b3579-ec6b-4d4a-957e-d95cf6d912771716198412354Notebooks_5.webp",
+                                           "name":  "Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/8e706202-ac85-4770-b885-d126a7d2742e1716198412342Notebooks_1.webp",
+                                           "name":  "Notebooks"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Executive Notebooks",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/60dcea3b-ea45-4185-b071-5b8adb324c6d1716198747714nOTE-2.jpg",
+                                           "name":  "Executive Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/71b9e1df-b330-4c6a-ac61-35d6c08ebc861716198747618nOTE-3.jpg",
+                                           "name":  "Executive Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/7415b8b7-86ea-42e1-8b59-442f576173e41716198747285Executive-Notebooks-5_3.jpg",
+                                           "name":  "Executive Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/86aa646f-440a-4a75-823f-98961c13fc571716198748253nOTE-4.jpg",
+                                           "name":  "Executive Notebooks"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/916dfd7a-54a5-4f10-90d1-37709bd685971716198747914nOTE-1.jpg",
+                                           "name":  "Executive Notebooks"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Our Notebook Printing Services in UAE",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/2a6e0de0-e26e-4408-ae77-6d95ce72bc7e1759913536051Hard_Case_Book.webp",
+                                           "name":  "Our Notebook Printing Services in UAE"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/3615bcd7-a651-498a-85c7-633835f2bcb21759913536182Creative_Book.webp",
+                                           "name":  "Our Notebook Printing Services in UAE"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/5c548ab7-d137-4ae3-9ddc-ab054e56af6f1759913536044Custom_Notebook_Printing.jpg",
+                                           "name":  "Our Notebook Printing Services in UAE"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/ab60e90c-0b2e-4c6f-bfaa-81b00584f6981759913536056School_Note_Book.jpg",
+                                           "name":  "Our Notebook Printing Services in UAE"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/e4f97068-7b69-4c14-8676-4b00fd01e7ec1759913536187Premium_Corporate_Notebooks.jpg",
+                                           "name":  "Our Notebook Printing Services in UAE"
+                                       }
+                                   ]
+                     }
+                 ],
+    "note-pads":  [
+                      {
+                          "heading":  "Side Spiral Notepads",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/2c052696-e52d-47bd-a0a2-7201b7809a4c1719232119845Side_Spiral_Notepads_5.webp",
+                                            "name":  "Side Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/379ca2d6-ec30-4804-899d-dba2f0315c4a1719232119794Side_Spiral_Notepads_1.webp",
+                                            "name":  "Side Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/3da9176c-7cd2-4332-ac34-36deedd1c2b21719232119849Side_Spiral_Notepads_4.webp",
+                                            "name":  "Side Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/5d8838d5-f4e8-4252-8fdc-4e3393596eb51719232119818Side_Spiral_Notepads_3.webp",
+                                            "name":  "Side Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/c16ba529-3015-4def-a88d-64cd683a8e4d1719232119799Side_Spiral_Notepads_2.webp",
+                                            "name":  "Side Spiral Notepads"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Top Spiral Notepads",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/42f0184c-b7ac-458a-8b68-30fef574e4651719234332541Top_Spiral_Notepad_06.jpg",
+                                            "name":  "Top Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/836ef5c3-5c35-4d09-8e8b-d08f0ed84cde1719234332503Top_Spiral_Notepad__01.jpg",
+                                            "name":  "Top Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/adf609df-4b17-4380-9ef6-b25c0861ef011719234332515Top_Spiral_Notepad__02.jpg",
+                                            "name":  "Top Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/d5c8d4fa-6104-44f6-861d-fb37c3f7edcf1719234332422Top_Spiral_Notepad_05.jpg",
+                                            "name":  "Top Spiral Notepads"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/da347f66-c406-4fdc-b50c-6bc395a976b81719234332445Top_Spiral_Notepad_04.jpg",
+                                            "name":  "Top Spiral Notepads"
+                                        }
+                                    ]
+                      }
+                  ],
+    "certificates":  [
+                         {
+                             "heading":  "Standard Certificates",
+                             "mode":  "products",
+                             "items":  [
+                                           {
+                                               "source":  "/media/product/cover/Die-Cut_Certificates_1.webp",
+                                               "name":  "Die-Cut Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Normal_Certificate_Printing_1.webp",
+                                               "name":  "Normal Certificates"
+                                           }
+                                       ]
+                         },
+                         {
+                             "heading":  "Premium Certificates",
+                             "mode":  "products",
+                             "items":  [
+                                           {
+                                               "source":  "/media/product/cover/Debossed_Certificates_1.webp",
+                                               "name":  "Debossed Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Embossed_Certificates_1.webp",
+                                               "name":  "Embossed Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Foiled_Certificates_1.webp",
+                                               "name":  "Foiled Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Special_paper_certificate_01.webp",
+                                               "name":  "Special Paper Certificates"
+                                           }
+                                       ]
+                         },
+                         {
+                             "heading":  "Uniquely Designed Certificates",
+                             "mode":  "products",
+                             "items":  [
+                                           {
+                                               "source":  "/media/product/cover/Raised-Shiny-Certificates_5.webp",
+                                               "name":  "Raised Shiny Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/digital-foil-cirtificate-2.webp",
+                                               "name":  "Raised Foiled Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Raised_Shiny__Foiled_Certificates_4.webp",
+                                               "name":  "Raised Shiny + Foiled Certificates"
+                                           },
+                                           {
+                                               "source":  "/media/product/cover/Metallic_Printed_Certificates_1.webp",
+                                               "name":  "Metallic Printed Certificates"
+                                           }
+                                       ]
+                         }
+                     ],
+    "menus":  [
+                  {
+                      "heading":  "Standard Menu",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/Normal_Menu_Cards_1.webp",
+                                        "name":  "Normal Menu"
+                                    }
+                                ]
+                  },
+                  {
+                      "heading":  "Premium Menu",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/Luxury_Menu_Cards_1.webp",
+                                        "name":  "Luxury Menu"
+                                    }
+                                ]
+                  },
+                  {
+                      "heading":  "Uniquely Designed Menu",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/3D_UV_Menu_Cards_1.webp",
+                                        "name":  "Raised Shiny Menu"
+                                    }
+                                ]
+                  }
+              ],
+    "folders":  [
+                    {
+                        "heading":  "Normal File Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/53f4f513-9b9f-45ca-90bc-13265ce53bca1716219366264Normal_Folders_4.png",
+                                          "name":  "Normal File Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/58e77a98-1471-4208-acff-95ea0284e51f1716219366381Normal_Folders_2.png",
+                                          "name":  "Normal File Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/788d516a-cf66-44f8-928d-f2265eb32d9a1716219366375Normal_Folders_3.png",
+                                          "name":  "Normal File Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/89eaa830-6b38-443c-b245-6184c0c1e5401716219366140Normal_Folders_1.png",
+                                          "name":  "Normal File Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/b4678c38-2101-44b7-8940-ae528f9635d21716219366267Normal_Folders_5.png",
+                                          "name":  "Normal File Folders"
+                                      }
+                                  ]
+                    },
+                    {
+                        "heading":  "3 Fold Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/0b814b4e-515e-41af-aa87-993e49c6beef17162197260403fold_folder_mockup__1.png",
+                                          "name":  "3 Fold Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/2e5d19eb-46cc-4b03-b331-602392c7a75717162197261823fold_folder_mockup__4.png",
+                                          "name":  "3 Fold Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/ab071fe0-4c38-4488-bf12-85e43b2c960817162197261203fold_folder_mockup__3.png",
+                                          "name":  "3 Fold Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/c20d38df-b623-4bad-9861-5223ff2011a117162197261863fold_folder_mockup__5.png",
+                                          "name":  "3 Fold Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/f6436aa5-0829-47dc-9bd6-b0be06efd83c17162197260373fold_folder_mockup__2.png",
+                                          "name":  "3 Fold Folders"
+                                      }
+                                  ]
+                    },
+                    {
+                        "heading":  "Special Paper Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/a693ff3b-7d37-46bd-b807-fa770160d8871716220006380Special_Paper_Folders_4.png",
+                                          "name":  "Special Paper Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/dd5c36f2-53d1-41af-8983-de76546cc0cd1716220006029Special_Paper_Folders_2.png",
+                                          "name":  "Special Paper Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/e016f2ae-5390-4041-9028-fc216d05c69b1716220006360Special-paper-folder-mockup-6.png",
+                                          "name":  "Special Paper Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/e2588a51-4510-474b-8170-d03e7116cbdc1716220006500Special_Paper_Folders_3.png",
+                                          "name":  "Special Paper Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/eb41e432-8c25-4702-a7fc-c1e6809f77eb1716220006354Special_Paper_Folders_5.png",
+                                          "name":  "Special Paper Folders"
+                                      }
+                                  ]
+                    },
+                    {
+                        "heading":  "PU Leather Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/0ed64158-a2cf-43ce-8051-79b81d04b14d1716220297930PU_Leather_Folder_2.jpg",
+                                          "name":  "PU Leather Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/2235eca1-0395-4236-a80e-9f93b79e756e1716220297921PU_Leather_Folder_1.jpg",
+                                          "name":  "PU Leather Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/6063da68-c1d6-489e-a69c-5ab002f7193a1716220298072PU_Leather_Folder_4.jpg",
+                                          "name":  "PU Leather Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/bf91f78b-f3f3-4407-b13e-62b9af96c0021716220298141PU_Leather_Folder_3.jpg",
+                                          "name":  "PU Leather Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/c41ff767-9b73-4264-824f-93f7f7545a991716220298159PU_Leather_Folder_5.jpg",
+                                          "name":  "PU Leather Folders"
+                                      }
+                                  ]
+                    },
+                    {
+                        "heading":  "Raised Foiled Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/086da9a5-830d-402b-bf4b-78046bca25591716220554303Raised_Foiled_File_Folders_1.jpg",
+                                          "name":  "Raised Foiled Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/1f81ac22-fb66-4699-b71e-5beacee55a3e1716220554299Raised_Foiled_File_Folders_3.jpg",
+                                          "name":  "Raised Foiled Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/28ff07b5-5aa6-45bf-935b-625d521add841716220554455Raised_Foiled_File_Folders_4.jpg",
+                                          "name":  "Raised Foiled Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/84c198db-18ed-41b4-8470-803dce0a173a1719254679073Raised_Foiled_File_Folder_05_a.jpg",
+                                          "name":  "Raised Foiled Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/9d4ba9f9-cfbb-413d-b056-03bacbbb64f21716220554255Raised_Foiled_File_Folders_2.jpg",
+                                          "name":  "Raised Foiled Folders"
+                                      }
+                                  ]
+                    },
+                    {
+                        "heading":  "Raised Shiny Folders",
+                        "mode":  "gallery",
+                        "items":  [
+                                      {
+                                          "source":  "/media/PageDefine/productimage/43e14f72-e4d0-4b60-b117-1199730b271b1716220884216Raised_shiny_folder_01.jpg",
+                                          "name":  "Raised Shiny Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/483f13bd-5f9e-4834-b88b-40f1f0737e471716220884303Raised_shiny_folder_05.jpg",
+                                          "name":  "Raised Shiny Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/4b9f46a2-4b00-43b6-8fe2-a6afa5ffe3ca1716220884467Raised_shiny_folder_02.jpg",
+                                          "name":  "Raised Shiny Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/7ac1e54c-449b-4251-9231-5bab354278171716220884584Raised_shiny_folder_06.jpg",
+                                          "name":  "Raised Shiny Folders"
+                                      },
+                                      {
+                                          "source":  "/media/PageDefine/productimage/bcd8f0e2-63a0-4ebc-9f52-2b198c1567e61716220884306Raised_shiny_folder_07_a.jpg",
+                                          "name":  "Raised Shiny Folders"
+                                      }
+                                  ]
+                    }
+                ],
+    "calendar":  [
+                     {
+                         "heading":  "Normal Desktop Calendars",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/18ad9d3f-8842-4da4-a7f2-7dbc09ccc972_1793096711414_01.jpg",
+                                           "name":  "Normal Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/3c7b289a-8ea4-4642-b03b-bb9fbb8b37ab_1793246375446_02.jpg.jpeg",
+                                           "name":  "Normal Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/8c725fc3-2782-4189-87a4-ae20cf7e2019_1793096711428_03.jpg",
+                                           "name":  "Normal Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/b1e7ff7c-a884-413b-8a5c-69a20e7fd2e3_1793096711438_04.jpg",
+                                           "name":  "Normal Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/e5ea5da6-e859-41e4-ae08-bbefe7e04ea0_1793096711423_05.jpg",
+                                           "name":  "Normal Desktop Calendars"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Raised Shiny Desktop Calendars",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/4e9f5761-f468-4fd1-a3fd-7aa10e48e527_1793096217158_01.jpg",
+                                           "name":  "Raised Shiny Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/5c8e02cc-1de2-43bd-bbb9-bdb421b8714a_1793096217175_01.jpg",
+                                           "name":  "Raised Shiny Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/71a24e96-3d2c-4c50-8629-c1dcce98287c_1793096217177_01.jpg",
+                                           "name":  "Raised Shiny Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/7ea28c63-16d4-4c32-85fd-ea483ebf66e1_1793096217152_01.jpg",
+                                           "name":  "Raised Shiny Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/d7c3b787-c2db-4f57-9dd0-cecb84e925f2_1793096217160_01.jpg",
+                                           "name":  "Raised Shiny Desktop Calendars"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Metallic Printed Desktop Calendars",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/0fc782c9-08a7-4577-a033-9517cd91767b_1793096780261_01.jpg",
+                                           "name":  "Metallic Printed Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/28efaf01-c448-425e-b4d5-96cd8efbff6c_1793096780443_02.jpg",
+                                           "name":  "Metallic Printed Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/43694949-0491-4c1a-b8f2-b517dea86c06_1793096780442_03.jpg",
+                                           "name":  "Metallic Printed Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/7dd78e1c-378b-4f9a-ab76-9d136dd92b4f_1793096780273_04.jpg",
+                                           "name":  "Metallic Printed Desktop Calendars"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/ff4c78e0-c426-4012-ab97-d9aab6726d90_1793096780265_05.jpg",
+                                           "name":  "Metallic Printed Desktop Calendars"
+                                       }
+                                   ]
+                     }
+                 ],
+    "diary":  [
+                  {
+                      "heading":  "Standard Diary",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/01_nJOExu7.jpg.webp",
+                                        "name":  "Readymade Debossed Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/01.jpg.webp",
+                                        "name":  "Readymade Foiled Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/01_MFiz4OY.jpg.webp",
+                                        "name":  "Readymade UV Printed Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/01_Bj06vXH.jpg.webp",
+                                        "name":  "Readymade Engraved Diaries"
+                                    }
+                                ]
+                  },
+                  {
+                      "heading":  "Uniquely Designed Diary",
+                      "mode":  "products",
+                      "items":  [
+                                    {
+                                        "source":  "/media/product/cover/Raised_Shiny_Diary_01.jpg.webp",
+                                        "name":  "Raised Shiny Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/Raised_Foiled_Diary_01.jpg.webp",
+                                        "name":  "Raised Foiled Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/01_yB5ac78.jpg.webp",
+                                        "name":  "Metallic Printed Diaries"
+                                    },
+                                    {
+                                        "source":  "/media/product/cover/01_vsfI6yz.jpg.webp",
+                                        "name":  "PU Printed Diaries"
+                                    }
+                                ]
+                  }
+              ],
+    "business-cards":  [
+                           {
+                               "heading":  "Standard Business Cards",
+                               "mode":  "gallery",
+                               "items":  [
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/444592d7-6908-4fee-b0aa-40f7e62371451758470613684Die_Cut_Business_Cards_4.webp",
+                                                 "name":  "Standard Business Cards"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/a1ebb929-6da5-421a-ac86-35c652b734821758470613681Standard_Business_Cards_covers.webp",
+                                                 "name":  "Standard Business Cards"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/dc1bd3ce-3d46-4cc4-bef7-3e634827735e1758470613576Folding_Business_Cards_1.webp",
+                                                 "name":  "Standard Business Cards"
+                                             }
+                                         ]
+                           },
+                           {
+                               "heading":  "Uniquely Designed Business Cards",
+                               "mode":  "gallery",
+                               "items":  [
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/1f83b030-9884-491c-a9ee-2e6b2b37acfe1758471452852Digital_3D_Foiling_Business_Cards_cover.webp",
+                                                 "name":  "Uniquely Designed Business Cards"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/5cdf4b5e-7ea8-4480-94ff-099d7ef136261758471452894Raised_Shiny_Business_Cards_cover.webp",
+                                                 "name":  "Uniquely Designed Business Cards"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/9185d247-cc75-48e2-8069-c55d8f0861a91758471452882Metallic_Printed_Business_Cards_1.webp",
+                                                 "name":  "Uniquely Designed Business Cards"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/f60c5c94-634e-4247-b483-79aa04a3d96d1758471452788Raised_shiny__Foiled_Business_cards_1.webp",
+                                                 "name":  "Uniquely Designed Business Cards"
+                                             }
+                                         ]
+                           },
+                           {
+                               "heading":  "Premium Business Card",
+                               "mode":  "gallery",
+                               "items":  [
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/0d75e606-43b0-4d72-9ebc-26758baf137d1758470955680Textured_Business_Cards_1.webp",
+                                                 "name":  "Premium Business Card"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/a036bc24-8e61-4fbf-9ce6-607dbb300cd91758470955809Embossed_Business_Cards_1.webp",
+                                                 "name":  "Premium Business Card"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/a7e4472b-3c9c-459a-b903-c83cec6ab3851758470955601Debossed_Business_Cards_1.webp",
+                                                 "name":  "Premium Business Card"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/d19276d4-3171-424e-90f1-0c700bc221461758470955705Foiling_Business_Cards_1.webp",
+                                                 "name":  "Premium Business Card"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/dd592b19-988c-4bcd-aaf3-6043ec6d11251758470955708Sandwich_Business_Cards_1.webp",
+                                                 "name":  "Premium Business Card"
+                                             }
+                                         ]
+                           },
+                           {
+                               "heading":  "Our Business Card Printing Services in UAE",
+                               "mode":  "gallery",
+                               "items":  [
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/0efbd80c-1c7b-4eb7-a1c1-7ef8f742c4151758485431380Creative__Custom_Designs.jpg",
+                                                 "name":  "Our Business Card Printing Services in UAE"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/47010b81-90e6-4cb1-9c54-c027766dfec91758485431365Premium__Luxury_Cards.jpg",
+                                                 "name":  "Our Business Card Printing Services in UAE"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/83065a80-837b-41ad-b12b-7c65e7e0169b1758485431373Standard_Business_Cards.jpg",
+                                                 "name":  "Our Business Card Printing Services in UAE"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/ab16fac0-4661-41d4-a457-c6bbc2bcc25e1758485431459Uniquely_Designed_Business_Cards.jpg",
+                                                 "name":  "Our Business Card Printing Services in UAE"
+                                             },
+                                             {
+                                                 "source":  "/media/PageDefine/productimage/ceff24a1-c383-4f0a-85d8-5ac36f8257e61758485431463Eco-Friendly_Business_Cards.jpg",
+                                                 "name":  "Our Business Card Printing Services in UAE"
+                                             }
+                                         ]
+                           }
+                       ],
+    "envelopes":  [
+                      {
+                          "heading":  "Standard Envelopes",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/5aa83c0b-53a5-47a2-aff5-63b2e0e0dfb41759479939298Ready_Made_Envelopes_1.webp",
+                                            "name":  "Standard Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/6fa90bde-7f62-4ffa-a207-8e19bce12d651759479939210Invitation_Envelopes_1.webp",
+                                            "name":  "Standard Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/74de639a-1110-49e7-b445-6fef4c7228e81759479939219Readymade_Foiling_Envelopes_1.webp",
+                                            "name":  "Standard Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/846211e4-b758-4db3-b9ce-4768854ba0371759479939207Window_Envelopes_4.webp",
+                                            "name":  "Standard Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/be86edeb-74d7-47ca-8152-69695c3e469d1759479939212Custom_Size_Printed_Envelopes_1.webp",
+                                            "name":  "Standard Envelopes"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Premium Envelopes",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/3b0cc38c-c9d2-43e3-88ac-64dceda338481759480279830Embossed_Envelopes_5.webp",
+                                            "name":  "Premium Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/b116a5d3-7d5d-4340-baa4-96d6f9d6ddc11759480279789Custom_Envelopes_1.webp",
+                                            "name":  "Premium Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/d092c8b7-5c5b-432e-a5d4-2b1ba25c94211759480279792Debossed_Envelopes_1.webp",
+                                            "name":  "Premium Envelopes"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Uniquely Designed Envelopes",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/06ba0875-04b0-459e-b34c-01e5287a213d1759480631044Metallic_Printed_Envelopes_1.webp",
+                                            "name":  "Uniquely Designed Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/4e089ce4-723f-4c06-af2a-c4db2a24a0891759480534350Raised_Shiny_Envelopes_1.webp",
+                                            "name":  "Uniquely Designed Envelopes"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/e1d95773-cba2-4a91-8cb9-92acab9afc631759480534531Raised_Foiled_Envelopes_1.webp",
+                                            "name":  "Uniquely Designed Envelopes"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Our Envelope Printing Services in Dubai",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/4c972337-869c-4bf1-888e-ce90e26dce531759480904401Event__Invitation_Envelopes.jpg",
+                                            "name":  "Our Envelope Printing Services in Dubai"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/5b9d143f-1796-4632-be70-8944d58850621759480904289Envelope_Making_in_Dubai.jpg",
+                                            "name":  "Our Envelope Printing Services in Dubai"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/7c1cb938-4bfc-4dd1-9db9-7358a0cc7f491759480904218Corporate_Envelopes.jpg",
+                                            "name":  "Our Envelope Printing Services in Dubai"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/7d2731cc-46d1-40d6-87b0-9cca391a16431759480904341Custom_Envelope_Printing_in_Dubai.jpg",
+                                            "name":  "Our Envelope Printing Services in Dubai"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/d40c857e-7147-419e-9c52-4a81278a19c31759480904330Marketing__Promotional_Envelopes.jpg",
+                                            "name":  "Our Envelope Printing Services in Dubai"
+                                        }
+                                    ]
+                      }
+                  ],
+    "catalogues":  [
+                       {
+                           "heading":  "Standard Catalogues",
+                           "mode":  "products",
+                           "items":  [
+                                         {
+                                             "source":  "/media/product/cover/Roll_Fold_Catalogue_1.webp",
+                                             "name":  "Roll Fold Catalogues"
+                                         },
+                                         {
+                                             "source":  "/media/product/cover/Open_Gate_Fold_Catalogues_1.webp",
+                                             "name":  "Open Gate Fold Catalogues"
+                                         },
+                                         {
+                                             "source":  "/media/product/cover/Z-Fold_Catalogue_1.webp",
+                                             "name":  "Z-Fold Catalogues"
+                                         },
+                                         {
+                                             "source":  "/media/product/cover/Tri-fold_Catalogues_1.webp",
+                                             "name":  "Tri-Fold Catalogues"
+                                         },
+                                         {
+                                             "source":  "/media/product/cover/Bi_Fold_Catalogue_1.webp",
+                                             "name":  "Bi-Fold Catalogues"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Uniquely Designed Catalogues",
+                           "mode":  "products",
+                           "items":  [
+                                         {
+                                             "source":  "/media/product/cover/Metallic_Printed_Catalogues_1.webp",
+                                             "name":  "Metallic Printed Catalogues"
+                                         }
+                                     ]
+                       }
+                   ],
+    "letterhead":  [
+                       {
+                           "heading":  "Normal Letterhead",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/2a9b5d1f-2f1f-433a-908b-e1b55acae25c1714738094256Normal_Letterhead_2.png",
+                                             "name":  "Normal Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/36608227-838a-4119-9f1d-84fe9dd0fdb71714738094277Normal_Letterhead_3.png",
+                                             "name":  "Normal Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/6420582d-a14a-4a6c-9c49-44399287aa2b1714738094282Normal_Letterhead_5.png",
+                                             "name":  "Normal Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/6b44738a-ca58-440f-9e43-142e6116375f1714738094292Normal_Letterhead_1.png",
+                                             "name":  "Normal Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/ddba22ce-5c2b-4791-9a9e-d46c9c93773d1714738094287Normal_Letterhead_4.png",
+                                             "name":  "Normal Letterhead"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Embossed Letterhead",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/300fe7fe-9d2f-414d-afdf-8f839d5a5d6c1714987371620Embossed_Letter_Head_1.jpg",
+                                             "name":  "Embossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/4c5e48a5-bb85-4b1e-86dd-7823f8aa5f2a1714987371872Embossed_Letter_Head_3.jpg",
+                                             "name":  "Embossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/70811c6c-5e30-4f38-83ab-796fee3c3b0b1714987371488Embossed_Letter_Head_5.jpg",
+                                             "name":  "Embossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/74cd430d-cb8d-48e6-ba14-11dcd824c33f1714987371795Embossed_Letter_Head_4.jpg",
+                                             "name":  "Embossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/da5466cd-2533-48ce-ad68-283a8a45d0a41714987371713Embossed_Letter_Head_2.jpg",
+                                             "name":  "Embossed Letterhead"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Debossed Letterhead",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/06fa9f2d-95ef-445c-a814-47b5e14d6ab11716196211174Debossed_Letter_Head_2.jpg",
+                                             "name":  "Debossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/4034f8a7-f83a-49da-8a02-74a3361b527f1716196235785Debossed_Letter_Head_3.jpg",
+                                             "name":  "Debossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/5ff417de-4e81-4609-a91e-964276c80e8b1716196212278Debossed_Letter_Head_5.jpg",
+                                             "name":  "Debossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/84c3b3d0-7c11-4e43-8c36-b47c78ccd03b1716196211267Debossed_Letter_Head_1.jpg",
+                                             "name":  "Debossed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/d1481901-2a2d-4819-8896-3301a68cdd791716196211399Debossed_Letter_Head_4.jpg",
+                                             "name":  "Debossed Letterhead"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Foiled Letterhead",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/519aa07e-6955-45d0-8c2b-61935cbb34341714987587141Foiled_Letterhead_2.png",
+                                             "name":  "Foiled Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/b1e33e67-52b8-402b-a27e-01fe9fc2cab21714987587007Foiled_Letterhead_4.png",
+                                             "name":  "Foiled Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/b7ee9422-3dcc-43ee-b37e-13600dc4030f1714987586890Foiled_Letterhead_5.png",
+                                             "name":  "Foiled Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/b940c808-eec7-4191-a249-0dba83ab0fc01714987587008Foiled_Letterhead_1.png",
+                                             "name":  "Foiled Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/d753fed5-0b9e-4671-8887-bded59f4a36b1714987587092Foiled_Letterhead_3.png",
+                                             "name":  "Foiled Letterhead"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Metallic Printed Letterhead",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/4146a2ce-0932-4d57-b959-8793927fd9561714800838987Metallic_Printed_Letter_Head_4.jpg",
+                                             "name":  "Metallic Printed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/4f9ae509-a4ec-4a12-9913-81ecde295f5a1714800839023Metallic_Printed_Letter_Head_3.jpg",
+                                             "name":  "Metallic Printed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/5587dd64-fbd4-403d-b6d7-283f4154913e1714800838952Metallic_Printed_Letter_Head_5.jpg",
+                                             "name":  "Metallic Printed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/c308d303-f91d-4dba-bbb6-407ec32105201714800838989Metallic_Printed_Letter_Head_2.jpg",
+                                             "name":  "Metallic Printed Letterhead"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/d027ec4d-dd39-40da-933b-a462337bd9ed1714800838984Metallic_Printed_Letter_Head_1.jpg",
+                                             "name":  "Metallic Printed Letterhead"
+                                         }
+                                     ]
+                       }
+                   ],
+    "flyers":  [
+                   {
+                       "heading":  "Standard Flyers",
+                       "mode":  "gallery",
+                       "items":  [
+                                     {
+                                         "source":  "/media/PageDefine/productimage/2176e6af-6ac6-4d43-ac3d-9cfe2459565c1716224703439A3_to_A4_Flyer_1.webp",
+                                         "name":  "Standard Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/321b7594-4915-4c7b-a316-e0ff9a1141e41716224703398ROLL_fold_flyer_1.webp",
+                                         "name":  "Standard Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/453fbf4a-646c-4f76-b7a4-e3d5ebe316801716224703442A4_to_DL_Flyer_1.webp",
+                                         "name":  "Standard Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/6c2872e7-8bc9-4b76-b689-a1cdea262e331716224703445Z_FOLD_flyer_1.webp",
+                                         "name":  "Standard Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/ba40b4c0-690e-4f70-a2cd-a66b1d22ca281716224703416DL_Flyer_1.webp",
+                                         "name":  "Standard Flyers"
+                                     }
+                                 ]
+                   },
+                   {
+                       "heading":  "Die-Cut Flyers",
+                       "mode":  "gallery",
+                       "items":  [
+                                     {
+                                         "source":  "/media/PageDefine/productimage/513622b6-e296-4e77-88a8-15bd96ac4d671716225238487Die_Cut_Flyers_4.png",
+                                         "name":  "Die-Cut Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/51efce42-9c87-422f-8401-8b0a98a65d2e1716225238533Die_Cut_Flyers_3.png",
+                                         "name":  "Die-Cut Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/6931f0d9-6cf3-451c-a285-850a9d2b1b4b1716225238289Die_Cut_Flyers_1.png",
+                                         "name":  "Die-Cut Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/9bdc4370-f036-4ca6-8539-195a1e3dd3e31716225238395Die_Cut_Flyers_2.png",
+                                         "name":  "Die-Cut Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/e13a44d4-a49f-41ce-8636-d2b5560a72801716225238534Die_Cut_Flyers_5.png",
+                                         "name":  "Die-Cut Flyers"
+                                     }
+                                 ]
+                   },
+                   {
+                       "heading":  "Metallic Printed Flyers",
+                       "mode":  "gallery",
+                       "items":  [
+                                     {
+                                         "source":  "/media/PageDefine/productimage/31de41c6-5ba8-40b7-9308-4fc432d3445b1716225652689Metallic_Printed_Flyers_5.jpg",
+                                         "name":  "Metallic Printed Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/61f5d416-28cc-464b-b358-05ed6964f9301716225652693Metallic_Printed_Flyers_4.jpg",
+                                         "name":  "Metallic Printed Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/78d07829-c955-4c5d-8743-1be2a6a21e0b1716225652692Metallic_Printed_Flyers_3.jpg",
+                                         "name":  "Metallic Printed Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/83c8ed56-3aba-4f45-ad09-fecefd7c7ef71716225652591Metallic_Printed_Flyers_2.jpg",
+                                         "name":  "Metallic Printed Flyers"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/d97e9c39-0959-4770-b736-19e5be3693291716225652593Metallic_Printed_Flyers_1.jpg",
+                                         "name":  "Metallic Printed Flyers"
+                                     }
+                                 ]
+                   }
+               ],
+    "brochures":  [
+                      {
+                          "heading":  "Standard Brochures",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/1e981600-c597-48a2-bd24-e63fb63fc8921759714307463Tri_Fold_Brochures_1.webp",
+                                            "name":  "Standard Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/78a1a36b-243d-4cb0-8c9d-d78e665cc4ad1759714307045A4_Landscape_Brochures_1.webp",
+                                            "name":  "Standard Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/a64c8084-726f-41ef-ba59-713ba6baf4971759714307201Roll_Fold_Brochures_1.webp",
+                                            "name":  "Standard Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/a9666da9-d298-4ef5-9fe9-b8c619668ac11759714307461Z-fold_Brochures_1.webp",
+                                            "name":  "Standard Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/b155cdc2-0463-4a3b-aa62-6630acd52d811759714306829Bi-Fold_Brochures_1.webp",
+                                            "name":  "Standard Brochures"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Premium Brochures",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/6d18ca25-85e1-4ec3-8cdc-3e7f57cd5b201759714890575Die_cut_brochure_01.webp",
+                                            "name":  "Premium Brochures"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Uniquely Designed Brochures",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/12178456-7906-49a0-82cb-1e2a1ec0ef601759715324486Raised_Foiled_Brochures_2.webp",
+                                            "name":  "Uniquely Designed Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/1fa43f17-a5e0-4bad-851c-be2306de45561759715324508Raised_Shiny_Brochures_1.webp",
+                                            "name":  "Uniquely Designed Brochures"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/2ae9b640-0557-4bf7-9f18-ac2b6d5b1f781759715324649Metallic_Printed_Brochures_5.webp",
+                                            "name":  "Uniquely Designed Brochures"
+                                        }
+                                    ]
+                      },
+                      {
+                          "heading":  "Our Brochure Printing Services",
+                          "mode":  "gallery",
+                          "items":  [
+                                        {
+                                            "source":  "/media/PageDefine/productimage/01c318a0-7dad-4139-9f61-7d7b212b90621759851860431Corporate_Brochures.jpg",
+                                            "name":  "Our Brochure Printing Services"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/195451c4-765c-40e7-b27d-939749d2ac661759851860433Event_Brochures.jpg",
+                                            "name":  "Our Brochure Printing Services"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/f0c00b31-8add-47c5-99f9-c8bc6cfe935e1759851860215Bi-Fold__Tri-Fold_Brochures.jpg",
+                                            "name":  "Our Brochure Printing Services"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/f699d38e-94b2-467e-af46-0c80b5dda6cd1759851860435Premium_Brochure_Printing_Dubai.jpg",
+                                            "name":  "Our Brochure Printing Services"
+                                        },
+                                        {
+                                            "source":  "/media/PageDefine/productimage/fd3911f0-c0d4-48df-8b44-90f75a6d6f861759851860428Die_Cut_Brochures.jpg",
+                                            "name":  "Our Brochure Printing Services"
+                                        }
+                                    ]
+                      }
+                  ],
+    "door-hangers":  [
+                         {
+                             "heading":  "Normal Door Hangers",
+                             "mode":  "gallery",
+                             "items":  [
+                                           {
+                                               "source":  "/media/PageDefine/productimage/0b8f2ea3-4e77-48eb-88aa-fa3b9b2547131719342926070Normal_Door_Hangers_2.png",
+                                               "name":  "Normal Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/526b6617-ab0e-49c2-99f2-8d7c100137491719342925989Normal_Door_Hangers_1.png",
+                                               "name":  "Normal Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/527200eb-b578-47db-95d8-2ff17627c0551719342926198Normal_Door_Hangers_5.png",
+                                               "name":  "Normal Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/82398b62-532c-472e-968f-b05c0f5fbcdf1719342926090Normal_Door_Hangers_3.png",
+                                               "name":  "Normal Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/f468666e-f1db-4416-b639-229ba8c9e1dc1719342925721door-hanger-normal.png",
+                                               "name":  "Normal Door Hangers"
+                                           }
+                                       ]
+                         },
+                         {
+                             "heading":  "Special Paper Door Hangers",
+                             "mode":  "gallery",
+                             "items":  [
+                                           {
+                                               "source":  "/media/PageDefine/productimage/4682edd8-6deb-431e-a414-6830ce100a741719343190391door-1.jpg",
+                                               "name":  "Special Paper Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/4b261709-ca6d-466e-86b5-bf1be5b789491719343190109door-3.jpg",
+                                               "name":  "Special Paper Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/622091ce-ee8e-4dba-8549-972328f527621719343190100door-5.jpg",
+                                               "name":  "Special Paper Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/ac94d4cb-030f-458f-9120-453eae7ceefe1719343190059door-4.jpg",
+                                               "name":  "Special Paper Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/e7fd0c2e-346a-4365-af3c-8eca2a7219291719343190104door-2.jpg",
+                                               "name":  "Special Paper Door Hangers"
+                                           }
+                                       ]
+                         },
+                         {
+                             "heading":  "Foiled Door Hangers",
+                             "mode":  "gallery",
+                             "items":  [
+                                           {
+                                               "source":  "/media/PageDefine/productimage/54f95205-7c3c-4089-a311-357dab604d881719343394398Door_hanger_05.jpg",
+                                               "name":  "Foiled Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/6787ea5a-b1f3-4a7e-8ed0-5f2f6df046091719343394505Door_hanger_04.jpg",
+                                               "name":  "Foiled Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/855f0fe4-4d40-41b2-be3e-2800d4bf1c411719343394392Door_hanger_03.jpg",
+                                               "name":  "Foiled Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/9b5f0cc4-561f-4b76-9c57-b919ac88ca861719343394325Door_hanger_02.jpg",
+                                               "name":  "Foiled Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/f0051b5a-68f4-49f3-ab9c-4a3e00895f751719343394444Door_hanger_01.jpg",
+                                               "name":  "Foiled Door Hangers"
+                                           }
+                                       ]
+                         },
+                         {
+                             "heading":  "Raised Shiny Door Hangers",
+                             "mode":  "gallery",
+                             "items":  [
+                                           {
+                                               "source":  "/media/PageDefine/productimage/333dd686-ff67-4bbf-88b8-cac1f754c17b1719343688622Raised_Shiny_Door_Hangers_3.jpg",
+                                               "name":  "Raised Shiny Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/338ed4ad-022a-4850-bc30-948ea2d6aa061719343688672Raised_Shiny_Door_Hangers_1.jpg",
+                                               "name":  "Raised Shiny Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/56c913f8-2ea6-42f4-b90d-2422a91e76a91719343688541Raised_Shiny_Door_Hangers_4.jpg",
+                                               "name":  "Raised Shiny Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/bc8a019e-66b6-401d-bfec-a4e629f636711719343688630Raised_Shiny_Door_Hangers_5.jpg",
+                                               "name":  "Raised Shiny Door Hangers"
+                                           },
+                                           {
+                                               "source":  "/media/PageDefine/productimage/d049b423-20e1-4f55-be6e-3ada5c5643831719343688567Raised_Shiny_Door_Hangers_2.jpg",
+                                               "name":  "Raised Shiny Door Hangers"
+                                           }
+                                       ]
+                         }
+                     ],
+    "tent-cards":  [
+                       {
+                           "heading":  "Normal Tent Cards",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/14c4f0fa-03f4-4f37-8af9-1c550ffbb8951719347273186Normal_Tent_Cards_1.jpg",
+                                             "name":  "Normal Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/27a3258d-9847-4500-a145-9bad43ed3e2c1719347273136Normal_Tent_Cards_3.jpg",
+                                             "name":  "Normal Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/61ff2409-6227-4e17-81a4-7683acf9eddc1719347273097Normal_Tent_Cards_4.jpg",
+                                             "name":  "Normal Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/6ac44ee5-629d-4ffd-ba4c-bb0075f269701719347273145Normal_Tent_Cards_5.jpg",
+                                             "name":  "Normal Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/c9b529fb-09ea-461c-bd29-a68a4d1152bd1719347273094Normal_Tent_Cards_2.jpg",
+                                             "name":  "Normal Tent Cards"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Special Paper Tent Cards",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/02edae97-76f9-4323-b7b7-6f8fa51632c31719347575741Special_Paper_Tent_Cards_1.jpg",
+                                             "name":  "Special Paper Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/8805d29e-dcbd-46c1-8bca-5e3b596688181719347575938Special_Paper_Tent_Cards_2.jpg",
+                                             "name":  "Special Paper Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/b21b0f58-77e1-40ea-811d-4bb94d9072551719347575827Special_Paper_Tent_Cards_4.jpg",
+                                             "name":  "Special Paper Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/e8f227aa-5991-41fd-8189-707926a964881719347575867Special_Paper_Tent_Cards_5.jpg",
+                                             "name":  "Special Paper Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/f119df9c-4177-4f8c-8544-44f052a06dee1719347575930Special_Paper_Tent_Cards_3.jpg",
+                                             "name":  "Special Paper Tent Cards"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Raised Shiny Tent Cards",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/30d87ffa-d9a9-4528-b58f-21f99674902817193478312773D_UV_Tent_Cards_11.png",
+                                             "name":  "Raised Shiny Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/4e67b793-0178-4d22-a8d8-9a1786d4770717193478310333D_UV_Tent_Cards_2.jpg",
+                                             "name":  "Raised Shiny Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/67c3ceb1-fe61-4d7b-b670-aaedf85fb31a17193478309653D_UV_Tent_Cards_2.png",
+                                             "name":  "Raised Shiny Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/c2e9330f-9d7e-4439-8585-0999e5b0716817193478310853D_UV_Tent_Cards_3.jpg",
+                                             "name":  "Raised Shiny Tent Cards"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/e2b17eec-b487-415e-adfb-98a4945afdb117193478311543D_UV_Tent_Cards_1.jpg",
+                                             "name":  "Raised Shiny Tent Cards"
+                                         }
+                                     ]
+                       }
+                   ],
+    "stickers":  [
+                     {
+                         "heading":  "Standard Stickers",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/0fee8a58-c83f-4a72-8cb6-37bd21b7f9221759227804206Craft-paper-sticker-5-n_1.webp",
+                                           "name":  "Standard Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/15fde9e4-e072-465a-9979-431dd5517c181759227804109Soft_Paper_Stickers_1.webp",
+                                           "name":  "Standard Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/2374f1b8-cb4f-457d-a319-ab4688ed617e1759227804218Matt_Paper_Stickers.webp",
+                                           "name":  "Standard Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/47cc40e4-c67a-4acb-9e5b-46d15f8b177d1759227804184Glossy_Paper_Stickers_1.webp",
+                                           "name":  "Standard Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/f42d439c-6ae0-43ae-bc29-f083ed4fb1b71759227804117Normal_Paper_Stickers_1.webp",
+                                           "name":  "Standard Stickers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Premium Stickers",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/0c8bf169-5e46-4d75-9d31-f3e054187f8f1759228095651Glossy_PVC_Sticker_1.webp",
+                                           "name":  "Premium Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/2f2db2eb-dde4-423c-9a03-5698bed25d961759228095818White_Vinyl_Stickers_1.webp",
+                                           "name":  "Premium Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/77bb2dcb-52b9-461d-86a1-15dd4e98b6101759228095761Transparent_Vinyl_Stickers_1.webp",
+                                           "name":  "Premium Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/b80483c2-bc86-4b63-bf54-03937585281b1759228095797PVC_Transparent_Stickers_1.webp",
+                                           "name":  "Premium Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/ba0e7ac9-f976-4d4a-938b-9b5406da24421759228095758Epoxy_Stickers_1.webp",
+                                           "name":  "Premium Stickers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Uniquely Designed Stickers",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/7882c7ab-05e0-40cb-986a-9a8021ea55d41759228468026Raised_Foiled_Stickers_02.webp",
+                                           "name":  "Uniquely Designed Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/9358d4bf-868a-46c9-8bdd-86eab019af601759228468120Raised_Foiled_Stickers_1.webp",
+                                           "name":  "Uniquely Designed Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/b7d008e1-6174-4485-ab90-1ee6cf0f1d5b1759228468046Metallic_Printed_Stickers_1.webp",
+                                           "name":  "Uniquely Designed Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/be9d6100-0ddd-4f69-9320-38c0af3e40b51759228468123Raised_Shiny_Stickers_1.webp",
+                                           "name":  "Uniquely Designed Stickers"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/fed058a4-e4eb-4a8a-a28b-f050f1c134921759228468039Digital_UV__Foiling_Stickers_cover.webp",
+                                           "name":  "Uniquely Designed Stickers"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Our Sticker Printing Services",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/0457f574-e76b-471c-8259-d6dc74bb2e751759464631873Product_Labels__Packaging_Stickers.jpg",
+                                           "name":  "Our Sticker Printing Services"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/17e49232-bed7-490a-9043-03a8141914911759464631876Premium_Sticker_Printing.jpg",
+                                           "name":  "Our Sticker Printing Services"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/631f9eda-12ad-4989-a7d3-db36951ae22c1759464631863Event__Personal_Stickers.jpg",
+                                           "name":  "Our Sticker Printing Services"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/6698d8aa-2956-412d-b283-542055655ca31759464631878Custom_Sticker_Printing.jpg",
+                                           "name":  "Our Sticker Printing Services"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/abd70efc-b461-4855-988a-83ebadc280a81759464631855Promotional_Stickers.jpg",
+                                           "name":  "Our Sticker Printing Services"
+                                       }
+                                   ]
+                     }
+                 ],
+    "stamp":  [
+                  {
+                      "heading":  "Premium Stamp",
+                      "mode":  "gallery",
+                      "items":  [
+                                    {
+                                        "source":  "/media/PageDefine/productimage/72d57aea-aec2-488f-a8b6-2af9ca22416b1719576115061stamp6.jpg",
+                                        "name":  "Premium Stamp"
+                                    },
+                                    {
+                                        "source":  "/media/PageDefine/productimage/8966d411-f8d1-4c0d-b5c7-40e8d61edfc71719564136574Premium_Stamp_5.png",
+                                        "name":  "Premium Stamp"
+                                    },
+                                    {
+                                        "source":  "/media/PageDefine/productimage/94e5a422-3123-413c-95d0-259bf038d5411719564136647Premium_Stamp_2.png",
+                                        "name":  "Premium Stamp"
+                                    },
+                                    {
+                                        "source":  "/media/PageDefine/productimage/adf5c617-6155-427e-8731-eaa693b78c701719564136571Premium_Stamp_1.png",
+                                        "name":  "Premium Stamp"
+                                    },
+                                    {
+                                        "source":  "/media/PageDefine/productimage/c6de3bd8-fe48-4bc6-8236-aacea4e1ce971719564136579Premium_Stamp_4.png",
+                                        "name":  "Premium Stamp"
+                                    }
+                                ]
+                  }
+              ],
+    "soft-case-boxes":  [
+                            {
+                                "heading":  "Standard Soft Case Boxes",
+                                "mode":  "products",
+                                "items":  [
+                                              {
+                                                  "source":  "/media/product/cover/Kraft_Paper_Soft_Case_Boxes_1.webp",
+                                                  "name":  "Kraft Paper Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Pizza_Box_1.webp",
+                                                  "name":  "Pizza Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Normal_Boxes_1.webp",
+                                                  "name":  "Normal Boxes"
+                                              }
+                                          ]
+                            },
+                            {
+                                "heading":  "Premium Soft Case Boxes",
+                                "mode":  "products",
+                                "items":  [
+                                              {
+                                                  "source":  "/media/product/cover/big-White_Print_Soft_Case_Box.webp",
+                                                  "name":  "White Printed Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/big-Special_Paper_Softcase_box.webp",
+                                                  "name":  "Special Paper Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/big-Block_Foiled_Softcase_Box.webp",
+                                                  "name":  "Foiling Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/big-Debossed_Softcase_Boxes.webp",
+                                                  "name":  "Debossed Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Embossed_Softcase_Box.webp",
+                                                  "name":  "Embossed Soft Case Boxes"
+                                              }
+                                          ]
+                            },
+                            {
+                                "heading":  "Uniquely Designed Soft Case Boxes",
+                                "mode":  "products",
+                                "items":  [
+                                              {
+                                                  "source":  "/media/product/cover/big-Laser_cut_Soft_Case_Box.webp",
+                                                  "name":  "Laser Cut Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/big-Digital_Raised_Shiny_Foiled_Box_1.webp",
+                                                  "name":  "Raised Shiny Foiled Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/big-Digital_Raised_Shiny_Softcase_Box.webp",
+                                                  "name":  "Raised Shiny Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Metallic_Printed_Soft_Case_Boxes_1.webp",
+                                                  "name":  "Metallic Printed Soft Case Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Digital_Foiled_Softcase_Box_01.webp",
+                                                  "name":  "Raised Foiled Soft Case Boxes"
+                                              }
+                                          ]
+                            }
+                        ],
+    "hard-case-boxes":  [
+                            {
+                                "heading":  "Standard Hard Case Boxes",
+                                "mode":  "products",
+                                "items":  [
+                                              {
+                                                  "source":  "/media/product/cover/Hard_Case_Paper_Box_2.webp",
+                                                  "name":  "Hard Case Paper Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Printed_Hard_Case_Box_1.webp",
+                                                  "name":  "Printed Hard Case Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Hard_Box_1.webp",
+                                                  "name":  "Hard Box"
+                                              }
+                                          ]
+                            },
+                            {
+                                "heading":  "Premium Hard Case Boxes",
+                                "mode":  "products",
+                                "items":  [
+                                              {
+                                                  "source":  "/media/product/cover/Luxury_Drawer_Box_1.webp",
+                                                  "name":  "Luxury Drawer Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/PU_Display_Box_1.webp",
+                                                  "name":  "PU Display Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Round_Gift_Box_1.webp",
+                                                  "name":  "Round Gift Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/PU_Gift_Boxes_01.webp",
+                                                  "name":  "PU Gift Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Cilinder_Boxes_1.webp",
+                                                  "name":  "Cylinder Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Luxury_Leather_Box_1.webp",
+                                                  "name":  "Luxury Leather Box"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/PU_Perfume_Boxes_1.webp",
+                                                  "name":  "PU Perfume Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/Hard_Case_Carry_boxes_1.webp",
+                                                  "name":  "Hard Case Carry Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/PU_Boxes_1.webp",
+                                                  "name":  "PU Boxes"
+                                              },
+                                              {
+                                                  "source":  "/media/product/cover/PU_Tissue_Box_1.webp",
+                                                  "name":  "PU Tissue Box"
+                                              }
+                                          ]
+                            }
+                        ],
+    "paper-bags":  [
+                       {
+                           "heading":  "Standard Paper Bags",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/58141387-f731-40f5-9b06-71cabde56e771758771121779Matte_Paper_Bags_1.webp",
+                                             "name":  "Standard Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/71f9387e-e649-4dc2-bafe-bbba325bad851758771121853Soft_Paper_Bags_1.webp",
+                                             "name":  "Standard Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/bcdf25f9-b198-4dec-a314-26eca42c56c11758771121769Laminated_Paper_Bags_1.webp",
+                                             "name":  "Standard Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/c91e3269-c819-4e63-bb81-70e6d90da1861758771121842Glossy_Paper_Bags_1.webp",
+                                             "name":  "Standard Paper Bags"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Premium Paper Bags",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/0b32ca18-3ebd-44d3-8cb8-bc623352891d1758771166709Debossed_Paper_Bags_1.webp",
+                                             "name":  "Premium Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/24b54849-ccfb-47ab-b16c-cf5a7b54b7651758771166646Special_Paper_Bags_1.webp",
+                                             "name":  "Premium Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/539ef25b-47de-41aa-88b4-8182b96147ea1758771166720Embossed_Paper_Bags_1.webp",
+                                             "name":  "Premium Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/be98c640-b05e-421a-b82c-02d2df6be8a51758771166705Foiling_Paper_Bags_1.webp",
+                                             "name":  "Premium Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/f655df58-b4c5-43bc-a536-74000c640c171758771166643Custom_shape_paper_bag_01.webp",
+                                             "name":  "Premium Paper Bags"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Uniquely Designed Paper Bags",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/305293dc-580f-43ff-823a-4c164b8b3af51758771228290Raised_Foiled_Paper_Bags_1.webp",
+                                             "name":  "Uniquely Designed Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/61dfb84d-dc6d-4097-b2ac-01bbd07211ab1758771228250Raised_Shiny_Paper_Bags_3.webp",
+                                             "name":  "Uniquely Designed Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/af0c207e-6346-4789-a74e-8971bcc6ea611758771228295Metallic_Printed_Paper_Bags_2.webp",
+                                             "name":  "Uniquely Designed Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/c7f3dc53-7efc-40f8-8efc-7dbdeed1c5f21758771228239Raised_Shiny___Foiled_Paper_Bags_07.webp",
+                                             "name":  "Uniquely Designed Paper Bags"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/eb89ca07-15d5-4fe8-aafd-9d88f8d4e2ac1758771228177Eco-friendly_Paper_Bags_1.webp",
+                                             "name":  "Uniquely Designed Paper Bags"
+                                         }
+                                     ]
+                       },
+                       {
+                           "heading":  "Types of Paper Bag Printing Services We Offer",
+                           "mode":  "gallery",
+                           "items":  [
+                                         {
+                                             "source":  "/media/PageDefine/productimage/1b2fbdd9-4f1a-4ee6-8903-b827fd0ebfb31758879284421Luxury_Paper_Bag_Printing.jpg",
+                                             "name":  "Types of Paper Bag Printing Services We Offer"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/34b8383f-bada-41bd-98a7-c483a19b1e7b1758879284090Premium_Paper_Bag_Printing.jpg",
+                                             "name":  "Types of Paper Bag Printing Services We Offer"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/41deca86-0000-44ea-8a11-ea761ac62b8c1758879284424Corporate__Event_Paper_Bags.jpg",
+                                             "name":  "Types of Paper Bag Printing Services We Offer"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/524b819a-89d3-4b10-a590-d9c7d5942f871758879284094Eco-Friendly_Paper_Bags.jpg",
+                                             "name":  "Types of Paper Bag Printing Services We Offer"
+                                         },
+                                         {
+                                             "source":  "/media/PageDefine/productimage/97851e74-71dd-419e-b7e5-24314a7f19961758879284088Custom_Printed_Paper_Bags.jpg",
+                                             "name":  "Types of Paper Bag Printing Services We Offer"
+                                         }
+                                     ]
+                       }
+                   ],
+    "lanyards":  [
+                     {
+                         "heading":  "Premium Lanyards",
+                         "mode":  "products",
+                         "items":  [
+                                       {
+                                           "source":  "/media/product/cover/Lanyards_01.webp",
+                                           "name":  "Lanyards"
+                                       }
+                                   ]
+                     }
+                 ],
+    "t-shirts":  [
+                     {
+                         "heading":  "V-Neck T-Shirts",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/00d40918-2d94-4917-bf00-e7f7e03244bd1719339086367V-Neck_T-Shirt_01.jpg",
+                                           "name":  "V-Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/8e79f3da-8bdd-4e56-aa2b-0be5df720ed11719339086683V-Neck_T-Shirt_04.jpg",
+                                           "name":  "V-Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/8f47f4ce-8919-46ba-851f-bdc610f3409f1719339086370V-Neck_T-Shirt_03.jpg",
+                                           "name":  "V-Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/ba81b6ac-6134-4cc2-b129-47f7bf409eb01719339086466V-Neck_T-Shirt_05.jpg",
+                                           "name":  "V-Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/fbf96aff-49ab-4024-a97e-b68988c326e31719339086463V-Neck_T-Shirt_02.jpg",
+                                           "name":  "V-Neck T-Shirts"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Round Neck T-Shirts",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/36547a24-8aef-4410-8da3-0544002685aa1719339512619T-Shirts_4.webp",
+                                           "name":  "Round Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/3ab3f272-55bb-44e9-9f93-451b1ed8c2cf1719339512524T-Shirts_6.webp",
+                                           "name":  "Round Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/5ba6f98d-3525-4565-9b47-4c15d6458dea1719339512602T-Shirts_2.webp",
+                                           "name":  "Round Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/6eb10371-74b9-4661-8f2e-a8b959a268a01719339512699T-Shirts_5.webp",
+                                           "name":  "Round Neck T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/92aa36a3-26d2-48b2-8290-d50da90516451719339512939T-Shirts_1.webp",
+                                           "name":  "Round Neck T-Shirts"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Polo T-Shirts",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/57889ac4-a4b7-47ca-9580-b6d1bdc102311719339714585Polo_T-Shirts_3.jpg",
+                                           "name":  "Polo T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/97de8a2d-4c6d-402a-be66-fc1b040460c81719339714566Polo_T-Shirts_2.jpg",
+                                           "name":  "Polo T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/ca5ab463-0484-4727-b549-72223828ef8b1719339714521Polo_T-Shirts_1.jpg",
+                                           "name":  "Polo T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/cdd2c1f4-4f67-4280-811b-8ed7cefa46bc1719339714530Polo_T-Shirts_4.jpg",
+                                           "name":  "Polo T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/e552eb1a-474b-45bf-89be-52ac98b2dce11719339714697Polo_T-Shirts_5.jpg",
+                                           "name":  "Polo T-Shirts"
+                                       }
+                                   ]
+                     },
+                     {
+                         "heading":  "Fully Customized T-Shirts",
+                         "mode":  "gallery",
+                         "items":  [
+                                       {
+                                           "source":  "/media/PageDefine/productimage/03e037e0-d8a2-4166-a982-8d749cad52ee1719340071247Fully_Customized_T-Shirts_5.jpg",
+                                           "name":  "Fully Customized T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/2dc514a9-2dca-47f5-b87c-3a6825b85e1f1719340071037Fully_Customized_T-Shirts_2.jpg",
+                                           "name":  "Fully Customized T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/721cdb4b-a4e0-4509-b357-ccf0f02fe89c1719340071151Fully_Customized_T-Shirts_1.jpg",
+                                           "name":  "Fully Customized T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/72a68002-ec2d-4932-8b56-c4aa037f938e1719340071217Fully_Customized_T-Shirts_3.jpg",
+                                           "name":  "Fully Customized T-Shirts"
+                                       },
+                                       {
+                                           "source":  "/media/PageDefine/productimage/7415bf0f-4330-4c05-8826-a4713fa6935f1719340071077Fully_Customized_T-Shirts_4.jpg",
+                                           "name":  "Fully Customized T-Shirts"
+                                       }
+                                   ]
+                     }
+                 ],
+    "pens":  [
+                 {
+                     "heading":  "Premium pens",
+                     "mode":  "products",
+                     "items":  [
+                                   {
+                                       "source":  "/media/product/cover/UV_Printed_Pen_01.webp",
+                                       "name":  "UV Printed Pen"
+                                   },
+                                   {
+                                       "source":  "/media/product/cover/Engraved_Pen_01.webp",
+                                       "name":  "Engraved Pen"
+                                   },
+                                   {
+                                       "source":  "/media/product/cover/Pen_01.webp",
+                                       "name":  "Metal Pens"
+                                   }
+                               ]
+                 }
+             ],
+    "mug":  [
+                {
+                    "heading":  "Standard Mugs",
+                    "mode":  "products",
+                    "items":  [
+                                  {
+                                      "source":  "/media/product/cover/Mug_01.webp",
+                                      "name":  "Mugs"
+                                  }
+                              ]
+                }
+            ],
+    "ramadan-products":  [
+                             {
+                                 "heading":  "Uniquely Designed Ramadan Products",
+                                 "mode":  "products",
+                                 "items":  [
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Bottle_3.webp",
+                                                   "name":  "Ramadan  Bottles"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Table_Mat_1.webp",
+                                                   "name":  "Ramadan Table Mat"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Mugs_1.webp",
+                                                   "name":  "Ramadan Mugs"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Rollup_Banner_1.webp",
+                                                   "name":  "Ramadan Rollup Banner"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Tissue_Box_1.webp",
+                                                   "name":  "Ramadan Tissue Box"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Tent_Cards_1.webp",
+                                                   "name":  "Ramadan Tent Cards"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Iftar_Menu_1.webp",
+                                                   "name":  "Iftar Menu"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Danglers_1.webp",
+                                                   "name":  "Ramadan Danglers"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Ramadan_Stickers_3.webp",
+                                                   "name":  "Ramadan Stickers"
+                                               },
+                                               {
+                                                   "source":  "/media/product/cover/Dates_Box_1.webp",
+                                                   "name":  "Dates Box"
+                                               }
+                                           ]
+                             }
+                         ],
+    "invitations":  [
+                        {
+                            "heading":  "Wedding Invitations",
+                            "mode":  "gallery",
+                            "items":  [
+                                          {
+                                              "source":  "/media/PageDefine/productimage/7df60d7d-a6f3-40e9-8b08-2691595c73ce1724149523129Embossed_Wedding_Invitations_1.webp",
+                                              "name":  "Wedding Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/bbf28438-9821-4c58-a176-85859c5a379b1724149523464Normal_Wedding_Invitations_5.png",
+                                              "name":  "Wedding Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/eb8c265b-e39b-40f9-9cb2-76f0cb00f2631724149523300Luxury_Wedding_Cards.webp",
+                                              "name":  "Wedding Invitations"
+                                          }
+                                      ]
+                        },
+                        {
+                            "heading":  "Invitations",
+                            "mode":  "gallery",
+                            "items":  [
+                                          {
+                                              "source":  "/media/PageDefine/productimage/170e3734-cc40-40e2-a3fc-6958074103ce1724150111981Normal_Invitation_Cards.webp",
+                                              "name":  "Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/636d7a3b-f84c-4ffc-b928-a13aa49d97661724150111778Custom_Invitation_Cards.webp",
+                                              "name":  "Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/c4b3c099-352d-40ec-baea-5e3e8e6d0f8d1724150111787Raised_Shiny_Invitation_Cards.webp",
+                                              "name":  "Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/cfde3a4e-6a20-4bba-a902-b10f499f77821724150111784Raised_Foiled_Invitation_Cards.webp",
+                                              "name":  "Invitations"
+                                          }
+                                      ]
+                        },
+                        {
+                            "heading":  "Inauguration Invitations",
+                            "mode":  "gallery",
+                            "items":  [
+                                          {
+                                              "source":  "/media/PageDefine/productimage/5e33670c-ad3e-4436-b174-2345ea15dfd71724150525049Normal_Inauguration_Invitations.webp",
+                                              "name":  "Inauguration Invitations"
+                                          },
+                                          {
+                                              "source":  "/media/PageDefine/productimage/e9a17157-e849-4517-b431-f3b50cb57ab71724150525042Special_Paper_Inauguration_Invitations.webp",
+                                              "name":  "Inauguration Invitations"
+                                          }
+                                      ]
+                        }
+                    ],
+    "wedding-invitations":  [
+                                {
+                                    "heading":  "Standard Wedding Invitations",
+                                    "mode":  "products",
+                                    "items":  [
+                                                  {
+                                                      "source":  "/media/product/cover/Normal_Wedding_Invitations_1.webp",
+                                                      "name":  "Normal Wedding Invitations"
+                                                  }
+                                              ]
+                                },
+                                {
+                                    "heading":  "Premium  Wedding  Invitations",
+                                    "mode":  "products",
+                                    "items":  [
+                                                  {
+                                                      "source":  "/media/product/cover/Embossed_Wedding_Invitations_1.webp",
+                                                      "name":  "Embossed Wedding Invitations"
+                                                  },
+                                                  {
+                                                      "source":  "/media/product/cover/Luxury_Wedding_Invitation_Cards_1.webp",
+                                                      "name":  "Luxury Wedding Cards"
+                                                  }
+                                              ]
+                                }
+                            ],
+    "inauguration-invitations":  [
+                                     {
+                                         "heading":  "Standard Inauguration Invitations",
+                                         "mode":  "products",
+                                         "items":  [
+                                                       {
+                                                           "source":  "/media/product/cover/Special_Paper_Inauguration_Invitations_1.webp",
+                                                           "name":  "Special Paper Inauguration Invitations"
+                                                       },
+                                                       {
+                                                           "source":  "/media/product/cover/Normal_Inauguration_Invitations_1.webp",
+                                                           "name":  "Normal Inauguration Invitations"
+                                                       }
+                                                   ]
+                                     }
+                                 ],
+    "roll-up-banner":  [
+
+                       ],
+    "canvas":  [
+                   {
+                       "heading":  "Canvas Printing",
+                       "mode":  "gallery",
+                       "items":  [
+                                     {
+                                         "source":  "/media/PageDefine/productimage/20f13cf8-1d50-48b7-8282-b0a05f969fb61719348964100Canvas_Printing_3.jpg",
+                                         "name":  "Canvas Printing"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/5295add8-4c64-4929-8470-3caed3d346221719348964299Canvas_Printing_5.jpg",
+                                         "name":  "Canvas Printing"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/5aaf44e0-88b7-4d9a-8a15-b6b65733d5d81719348964169Canvas_Printing_2.jpg",
+                                         "name":  "Canvas Printing"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/978202fc-457d-4d6a-9510-8ed1e3056d2d1719348964240Canvas_Printing_4.jpg",
+                                         "name":  "Canvas Printing"
+                                     },
+                                     {
+                                         "source":  "/media/PageDefine/productimage/e6d7ef28-a477-43bb-ab9c-6d364fe1aaa01719348964219Canvas_Printing_1.jpg",
+                                         "name":  "Canvas Printing"
+                                     }
+                                 ]
+                   }
+               ]
+}

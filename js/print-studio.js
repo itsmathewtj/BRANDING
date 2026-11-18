@@ -5,7 +5,7 @@ if (navigation && productNav && !navigation.querySelector('.mobile-product-menu'
   const mobileMenu = document.createElement('section');
   mobileMenu.className = 'mobile-product-menu';
   mobileMenu.setAttribute('aria-label', 'Browse products');
-  mobileMenu.innerHTML = '<div class="mobile-product-links"></div><a class="mobile-quick-quote" href="' + (productNav.querySelector('.product-nav-quote')?.getAttribute('href') || '#') + '">Quick Quote <span aria-hidden="true">&rarr;</span></a>';
+  mobileMenu.innerHTML = '<div class="mobile-product-links"></div><a class="mobile-quick-quote" href="' + (productNav.querySelector('.product-nav-event')?.getAttribute('href') || '#') + '">Event Coordination <span aria-hidden="true">&rarr;</span></a>';
   const links = mobileMenu.querySelector('.mobile-product-links');
   const productsLink = productNav.querySelector('.product-nav-home');
   if (productsLink) {
@@ -174,6 +174,115 @@ signageEnquiryForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   const message = document.querySelector('.sign-form-message');
   if (message) message.textContent = 'Thanks  -  this demo form is ready to connect to your inbox or form service.';
+});
+
+// Keep the dedicated navigation link as a page link. All other contact CTAs
+// open the same accessible, in-page enquiry form.
+const contactModal = document.createElement('dialog');
+contactModal.className = 'contact-form-modal';
+contactModal.setAttribute('aria-labelledby', 'contact-modal-title');
+contactModal.setAttribute('aria-describedby', 'contact-modal-description');
+contactModal.innerHTML = `
+  <div class="contact-modal-panel">
+    <button class="contact-modal-close" type="button" aria-label="Close contact form">&times;</button>
+    <p class="contact-modal-eyebrow">LET'S MAKE IT REAL</p>
+    <h2 id="contact-modal-title">Tell us what you’re<br><em>making.</em></h2>
+    <p id="contact-modal-description" class="contact-modal-intro">Share a few details and our team can help you plan the right next step.</p>
+    <form class="contact-modal-form" method="dialog">
+      <input type="hidden" name="enquiry_source">
+      <label>Your name<input name="name" autocomplete="name" required placeholder="How should we call you?"></label>
+      <label>Email address<input type="email" name="email" autocomplete="email" required placeholder="you@company.com"></label>
+      <label>Phone number<input type="tel" name="phone" autocomplete="tel" placeholder="+971"></label>
+      <label>Company<input name="company" autocomplete="organization" placeholder="Your brand or studio"></label>
+      <label class="contact-modal-wide">What are you making?<select name="project" required><option value="" disabled selected>Choose a project type</option><option>Business cards &amp; marketing</option><option>Books &amp; documents</option><option>Packaging</option><option>Invitations &amp; cards</option><option>Gifts &amp; promotional items</option><option>Banners &amp; signage</option><option>Event coordination</option><option>Something else</option></select></label>
+      <label class="contact-modal-wide">A little more about it<textarea name="details" rows="4" placeholder="Quantity, timing, finishes, ideas — whatever you know so far."></textarea></label>
+      <button class="contact-modal-submit" type="submit">Send project enquiry <span aria-hidden="true">-&gt;</span></button>
+      <p class="contact-modal-message" role="status" aria-live="polite"></p>
+    </form>
+  </div>`;
+document.body.append(contactModal);
+
+let contactModalScrollY = 0;
+let contactModalPageStyles = null;
+const lockPageAtCurrentScroll = () => {
+  if (contactModalPageStyles) return;
+  contactModalScrollY = window.scrollY || document.documentElement.scrollTop || 0;
+  const body = document.body;
+  contactModalPageStyles = {
+    position: body.style.position,
+    top: body.style.top,
+    left: body.style.left,
+    right: body.style.right,
+    width: body.style.width,
+    overflow: body.style.overflow,
+    paddingRight: body.style.paddingRight,
+    scrollBehavior: document.documentElement.style.scrollBehavior
+  };
+  const scrollbarWidth = Math.max(0, window.innerWidth - document.documentElement.clientWidth);
+  body.classList.add('contact-modal-page-locked');
+  body.style.position = 'fixed';
+  body.style.top = `-${contactModalScrollY}px`;
+  body.style.left = '0';
+  body.style.right = '0';
+  body.style.width = '100%';
+  body.style.overflow = 'hidden';
+  if (scrollbarWidth) body.style.paddingRight = `${scrollbarWidth}px`;
+};
+const restorePageScroll = () => {
+  if (!contactModalPageStyles) return;
+  const body = document.body;
+  const savedScrollY = contactModalScrollY;
+  const savedStyles = contactModalPageStyles;
+  contactModalPageStyles = null;
+  body.classList.remove('contact-modal-page-locked');
+  body.style.position = savedStyles.position;
+  body.style.top = savedStyles.top;
+  body.style.left = savedStyles.left;
+  body.style.right = savedStyles.right;
+  body.style.width = savedStyles.width;
+  body.style.overflow = savedStyles.overflow;
+  body.style.paddingRight = savedStyles.paddingRight;
+  document.documentElement.style.scrollBehavior = 'auto';
+  window.scrollTo(0, savedScrollY);
+  requestAnimationFrame(() => {
+    document.documentElement.style.scrollBehavior = savedStyles.scrollBehavior;
+  });
+};
+
+const closeContactModal = () => {
+  if (contactModal.open) contactModal.close();
+};
+contactModal.addEventListener('close', restorePageScroll);
+contactModal.querySelector('.contact-modal-close')?.addEventListener('click', closeContactModal);
+contactModal.addEventListener('click', (event) => {
+  if (event.target === contactModal) closeContactModal();
+});
+contactModal.querySelector('.contact-modal-form')?.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  if (!form.reportValidity()) return;
+  const message = form.querySelector('.contact-modal-message');
+  if (message) message.textContent = 'Thanks — your enquiry is ready. This form still needs an inbox connection to deliver submissions.';
+  form.reset();
+});
+
+document.addEventListener('click', (event) => {
+  const trigger = event.target instanceof Element ? event.target.closest('a[href], [data-contact-modal]') : null;
+  if (!trigger || trigger.closest('.main-nav')) return;
+  const href = trigger.getAttribute('href');
+  if (!href) return;
+  let destination;
+  try { destination = new URL(href, window.location.href); } catch { return; }
+  if (destination.origin !== window.location.origin || !/\/contact\.html$/i.test(destination.pathname)) return;
+  event.preventDefault();
+  const source = trigger.textContent.trim().replace(/\s+/g, ' ') || 'Website enquiry';
+  const sourceField = contactModal.querySelector('[name="enquiry_source"]');
+  if (sourceField) sourceField.value = source;
+  contactModal.querySelector('.contact-modal-message').textContent = '';
+  if (!contactModal.open) {
+    lockPageAtCurrentScroll();
+    contactModal.showModal();
+  }
 });
 
 

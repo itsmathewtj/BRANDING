@@ -7,7 +7,7 @@
   const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
   const products = Object.entries(catalog).flatMap(([key, category]) => category.products.map(([slug, name, description]) => ({
     key, slug, name, description, category: category.label,
-    image: window.paperPressProductImages?.[`${key}/${slug}`] || category.image
+    image: window.paperPressProductImages?.[`${key}/${slug}`] || { remote: `img/${encodeURIComponent(category.image)}`, local: encodeURIComponent(category.image) }
   })));
   const priority = ['books/certificates','gifts/lanyards','business/stickers','business/brochures','packaging/soft-case-boxes','business/door-hangers','gifts/ramadan-products'];
   products.sort((a, b) => { const ai = priority.indexOf(a.key + '/' + a.slug); const bi = priority.indexOf(b.key + '/' + b.slug); return (ai < 0 ? 999 : ai) - (bi < 0 ? 999 : bi); });
@@ -36,7 +36,7 @@
     const shown = filtered.slice(0, visibleCount);
     productGrid.innerHTML = shown.map((product, index) => `
       <article class="catalog-product-card">
-        <div class="catalog-product-visual"><a class="catalog-product-image" href="products/${product.key}/${product.slug}.html" aria-label="View ${esc(product.name)}"><img src="img/${encodeURIComponent(product.image)}" alt="${esc(product.name)}"><span>${String(index + 1).padStart(2, '0')}</span></a><button class="catalog-favorite" type="button" aria-label="Save ${esc(product.name)}" aria-pressed="false">&#9829;</button></div>
+        <div class="catalog-product-visual"><a class="catalog-product-image" href="products/${product.key}/${product.slug}.html" aria-label="View ${esc(product.name)}"><img src="img/${product.image.local}" data-fallback="${product.image.remote}" alt="${esc(product.name)}" onerror="this.onerror=null;this.src=this.dataset.fallback"><span>${String(index + 1).padStart(2, '0')}</span></a><button class="catalog-favorite" type="button" aria-label="Save ${esc(product.name)}" aria-pressed="false">&#9829;</button></div>
         <div class="catalog-product-copy"><p>${esc(product.category)}</p><h3><a href="products/${product.key}/${product.slug}.html">${esc(product.name)}</a></h3><p class="catalog-product-description">${esc(product.description)}</p><a class="catalog-product-link" href="products/${product.key}/${product.slug}.html">Explore options <span aria-hidden="true">&rarr;</span></a></div>
       </article>`).join('');
     document.querySelector('.catalog-result-count').textContent = `${filtered.length} ${filtered.length === 1 ? 'product' : 'products'}`;
