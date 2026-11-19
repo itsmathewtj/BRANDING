@@ -163,18 +163,7 @@ if ('IntersectionObserver' in window) {
 }
 
 const projectForm = document.querySelector('.project-form');
-projectForm?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const message = document.querySelector('.project-form-message');
-  if (message) message.textContent = 'Thanks  -  your project details are ready. Connect this form to your inbox to receive submissions.';
-});
-
 const signageEnquiryForm = document.querySelector('.sign-enquiry-form');
-signageEnquiryForm?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const message = document.querySelector('.sign-form-message');
-  if (message) message.textContent = 'Thanks  -  this demo form is ready to connect to your inbox or form service.';
-});
 
 // Keep the dedicated navigation link as a page link. All other contact CTAs
 // open the same accessible, in-page enquiry form.
@@ -188,11 +177,16 @@ contactModal.innerHTML = `
     <p class="contact-modal-eyebrow">LET'S MAKE IT REAL</p>
     <h2 id="contact-modal-title">Tell us what you’re<br><em>making.</em></h2>
     <p id="contact-modal-description" class="contact-modal-intro">Share a few details and our team can help you plan the right next step.</p>
+    <div class="contact-modal-direct" aria-label="Direct contact details">
+      <a href="tel:+971568258470">+971 56 825 8470</a>
+      <a href="mailto:info@edenday.ae">info@edenday.ae</a>
+      <span>Ajman, United Arab Emirates</span>
+    </div>
     <form class="contact-modal-form" method="dialog">
       <input type="hidden" name="enquiry_source">
       <label>Your name<input name="name" autocomplete="name" required placeholder="How should we call you?"></label>
       <label>Email address<input type="email" name="email" autocomplete="email" required placeholder="you@company.com"></label>
-      <label>Phone number<input type="tel" name="phone" autocomplete="tel" placeholder="+971"></label>
+      <label>Phone number<input type="tel" name="phone" autocomplete="tel" placeholder="+971 56 825 8470"></label>
       <label>Company<input name="company" autocomplete="organization" placeholder="Your brand or studio"></label>
       <label class="contact-modal-wide">What are you making?<select name="project" required><option value="" disabled selected>Choose a project type</option><option>Business cards &amp; marketing</option><option>Books &amp; documents</option><option>Packaging</option><option>Invitations &amp; cards</option><option>Gifts &amp; promotional items</option><option>Banners &amp; signage</option><option>Event coordination</option><option>Something else</option></select></label>
       <label class="contact-modal-wide">A little more about it<textarea name="details" rows="4" placeholder="Quantity, timing, finishes, ideas — whatever you know so far."></textarea></label>
@@ -201,6 +195,69 @@ contactModal.innerHTML = `
     </form>
   </div>`;
 document.body.append(contactModal);
+
+const successModal = document.createElement('dialog');
+successModal.className = 'form-success-modal';
+successModal.setAttribute('aria-labelledby', 'form-success-title');
+successModal.setAttribute('aria-describedby', 'form-success-description');
+successModal.innerHTML = `
+  <div class="form-success-panel">
+    <div class="form-success-icon" aria-hidden="true"><svg viewBox="0 0 52 52"><circle class="success-ring" cx="26" cy="26" r="23"/><path class="success-tick" d="m15 27 7 7 15-16"/></svg></div>
+    <p class="form-success-eyebrow">MESSAGE RECEIVED</p>
+    <h2 id="form-success-title">Thank You!</h2>
+    <p id="form-success-description">Your Message Has Been Sent Successfully.</p>
+    <span class="form-success-dismiss-note">This message will close automatically.</span>
+  </div>`;
+document.body.append(successModal);
+
+let successCloseTimer = 0;
+let successModalClosing = false;
+const closeSuccessModal = () => {
+  if (!successModal.open || successModalClosing) return;
+  successModalClosing = true;
+  successModal.classList.add('is-closing');
+  const finishClose = () => { if (successModal.open) successModal.close(); };
+  successModal.addEventListener('transitionend', (event) => {
+    if (event.target === successModal && event.propertyName === 'opacity') finishClose();
+  }, { once: true });
+  window.setTimeout(finishClose, 420);
+};
+const showSuccessModal = (title = 'Thank You!', description = 'Your Message Has Been Sent Successfully.') => {
+  window.clearTimeout(successCloseTimer);
+  successModal.classList.remove('is-closing');
+  successModalClosing = false;
+  successModal.querySelector('#form-success-title').textContent = title;
+  successModal.querySelector('#form-success-description').textContent = description;
+  if (!successModal.open) successModal.showModal();
+  successCloseTimer = window.setTimeout(closeSuccessModal, 5000);
+};
+successModal.addEventListener('close', () => {
+  window.clearTimeout(successCloseTimer);
+  successModalClosing = false;
+  successModal.classList.remove('is-closing');
+});
+successModal.addEventListener('click', (event) => { if (event.target === successModal) closeSuccessModal(); });
+successModal.addEventListener('cancel', (event) => { event.preventDefault(); closeSuccessModal(); });
+
+const submitContactForm = (form) => {
+  const message = form.querySelector('.project-form-message, .sign-form-message, .contact-modal-message');
+  message?.classList.remove('form-submit-error');
+  form.reset();
+  if (message) message.textContent = '';
+  if (contactModal.open) {
+    closeContactModal();
+    window.setTimeout(() => showSuccessModal(), 460);
+  } else {
+    showSuccessModal();
+  }
+  return true;
+};
+const bindContactForm = (form) => form?.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  if (form.reportValidity()) await submitContactForm(form);
+});
+bindContactForm(projectForm);
+bindContactForm(signageEnquiryForm);
 
 let contactModalScrollY = 0;
 let contactModalPageStyles = null;
@@ -249,22 +306,34 @@ const restorePageScroll = () => {
   });
 };
 
+let contactModalClosing = false;
 const closeContactModal = () => {
-  if (contactModal.open) contactModal.close();
+  if (!contactModal.open || contactModalClosing) return;
+  contactModalClosing = true;
+  contactModal.classList.add('is-closing');
+  const finishClose = () => {
+    if (!contactModal.open) return;
+    contactModal.close();
+  };
+  contactModal.addEventListener('transitionend', (event) => {
+    if (event.target === contactModal && event.propertyName === 'opacity') finishClose();
+  }, { once: true });
+  window.setTimeout(finishClose, 440);
 };
-contactModal.addEventListener('close', restorePageScroll);
+contactModal.addEventListener('close', () => {
+  contactModalClosing = false;
+  contactModal.classList.remove('is-closing');
+  restorePageScroll();
+});
 contactModal.querySelector('.contact-modal-close')?.addEventListener('click', closeContactModal);
 contactModal.addEventListener('click', (event) => {
   if (event.target === contactModal) closeContactModal();
 });
-contactModal.querySelector('.contact-modal-form')?.addEventListener('submit', (event) => {
+contactModal.addEventListener('cancel', (event) => {
   event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const message = form.querySelector('.contact-modal-message');
-  if (message) message.textContent = 'Thanks — your enquiry is ready. This form still needs an inbox connection to deliver submissions.';
-  form.reset();
+  closeContactModal();
 });
+bindContactForm(contactModal.querySelector('.contact-modal-form'));
 
 document.addEventListener('click', (event) => {
   const trigger = event.target instanceof Element ? event.target.closest('a[href], [data-contact-modal]') : null;
@@ -281,6 +350,8 @@ document.addEventListener('click', (event) => {
   contactModal.querySelector('.contact-modal-message').textContent = '';
   if (!contactModal.open) {
     lockPageAtCurrentScroll();
+    contactModal.classList.remove('is-closing');
+    contactModalClosing = false;
     contactModal.showModal();
   }
 });

@@ -1,4 +1,4 @@
-﻿/* Shared motion system for the Paper & Press pages. */
+/* Shared motion system for the EDENDAY BRANDING &amp; ADVERTISING pages. */
 @keyframes page-enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 @keyframes float-card{0%,100%{transform:translateY(0) rotate(-7deg)}50%{transform:translateY(-11px) rotate(-4deg)}}
 @keyframes float-box{0%,100%{transform:translateY(0) rotate(8deg)}50%{transform:translateY(8px) rotate(4deg)}}
