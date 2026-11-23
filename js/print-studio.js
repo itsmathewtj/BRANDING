@@ -206,7 +206,7 @@ successModal.innerHTML = `
     <p class="form-success-eyebrow">MESSAGE RECEIVED</p>
     <h2 id="form-success-title">Thank You!</h2>
     <p id="form-success-description">Your Message Has Been Sent Successfully.</p>
-    <span class="form-success-dismiss-note">This message will close automatically.</span>
+
   </div>`;
 document.body.append(successModal);
 

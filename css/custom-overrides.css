@@ -1,0 +1,12 @@
+/* Requested home and category presentation updates */
+.sign-glass{min-height:150px;padding:24px 30px;transition:transform .3s,box-shadow .3s,background .3s}
+.sign-glass:hover{transform:translateY(-7px) scale(1.02);box-shadow:0 24px 60px #0007,inset 0 1px #ffffff70;background:linear-gradient(115deg,#dfe9f15e,#a6b5c56d 55%,#ebd6c24a)}
+.home-category-card{height:310px}
+.home-category-card img{filter:grayscale(.4) brightness(.72)}
+.home-category-extended-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){.home-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.home-category-card{height:220px;border-radius:10px}.home-category-card>div{left:11px;right:11px;bottom:12px;padding-right:0}.home-category-card h3{font-size:16px}.home-category-card p{font-size:9px}.home-category-count{top:11px;left:11px;font-size:6px}.home-category-card>div>b{right:0;bottom:auto;top:-38px}.home-category-extended-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.home-category-extended-grid article{padding:14px 12px}.home-category-extended-grid h4{font-size:15px}.home-category-extended-grid p{font-size:9px}.sign-glass{min-height:92px}}
+/* Tighter animated feature cards */
+.sign-glass-stack{gap:14px}
+.sign-glass{min-height:118px;padding:16px 24px}
+@media(max-width:800px){.sign-glass{min-height:116px;padding:13px}}
+@media(max-width:560px){.sign-glass-stack{gap:8px}.sign-glass{min-height:66px;padding:10px 13px}}
