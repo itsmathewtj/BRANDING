@@ -5,22 +5,44 @@ if (navigation && productNav && !navigation.querySelector('.mobile-product-menu'
   const mobileMenu = document.createElement('section');
   mobileMenu.className = 'mobile-product-menu';
   mobileMenu.setAttribute('aria-label', 'Browse products');
-  mobileMenu.innerHTML = '<div class="mobile-product-links"></div><a class="mobile-quick-quote" href="' + (productNav.querySelector('.product-nav-event')?.getAttribute('href') || '#') + '">Event Coordination <span aria-hidden="true">&rarr;</span></a>';
+  mobileMenu.innerHTML = '<h2 class="mobile-product-title">Categories</h2><a class="mobile-product-overview" href="categories.html"><span>All products</span><b class="mobile-product-count"></b></a><div class="mobile-product-links"></div><a class="mobile-quick-quote" href="' + (productNav.querySelector('.product-nav-event')?.getAttribute('href') || '#') + '">Event Coordination <span aria-hidden="true">&rarr;</span></a>';
+  const overviewHref = productNav.querySelector('.product-nav-home')?.getAttribute('href');
+  if (overviewHref) mobileMenu.querySelector('.mobile-product-overview').href = overviewHref;
   const links = mobileMenu.querySelector('.mobile-product-links');
-  const productsLink = productNav.querySelector('.product-nav-home');
-  if (productsLink) {
-    const link = productsLink.cloneNode(true);
-    link.className = 'mobile-product-link';
-    links.append(link);
-  }
+  const categoryLabels = {
+    books: 'Digital Offset Printing',
+    business: 'Stationary Prints',
+    packaging: 'Stationary Prints',
+    gifts: 'Promotional & Corporate Gifts',
+    invitations: 'Custom Gift and Brand Gift',
+    signage: 'Printing & Advertising'
+  };
+  let productCount = 0;
   productNav.querySelectorAll('.product-nav-group').forEach((group) => {
     const heading = group.querySelector(':scope > a');
-    if (!heading) return;
-    const categoryLink = heading.cloneNode(true);
-    categoryLink.className = 'mobile-product-link';
-    categoryLink.querySelector('.product-nav-caret')?.remove();
-    links.append(categoryLink);
+    const menu = group.querySelector(':scope > .product-nav-menu');
+    if (!heading || !menu) return;
+    const categoryKey = heading.getAttribute('href')?.match(/products\/([^/]+)\//)?.[1];
+    const products = [...menu.querySelectorAll('a[href]')];
+    const detail = document.createElement('details');
+    detail.className = 'mobile-product-group';
+    const summary = document.createElement('summary');
+    summary.innerHTML = `<span>${categoryLabels[categoryKey] || heading.textContent.trim()}</span><span aria-hidden="true">⌄</span>`;
+    detail.append(summary);
+    const showAll = document.createElement('a');
+    showAll.className = 'mobile-product-category';
+    showAll.href = heading.getAttribute('href');
+    showAll.innerHTML = `SHOW ALL ${products.length} <span aria-hidden="true">&rarr;</span>`;
+    detail.append(showAll);
+    products.forEach((product) => {
+      const item = product.cloneNode(true);
+      item.className = 'mobile-product-item';
+      detail.append(item);
+    });
+    productCount += products.length;
+    links.append(detail);
   });
+  mobileMenu.querySelector('.mobile-product-count').textContent = `(${productCount})`;
   navigation.append(mobileMenu);
 }
 navigation?.querySelectorAll('a[href]').forEach((link) => {
@@ -82,7 +104,7 @@ if (productNav) {
 }
 const heroBackground = document.querySelector('.hero-background-image');
 if (heroBackground && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const heroSlides = ['img/1.png', 'img/2.png', 'img/3.png', 'img/4.png', 'img/5.png', 'img/6.png'];
+  const heroSlides = ['img/6.png', 'img/5.png', 'img/2.png', 'img/1.png'];
   const slideAssets = heroSlides.map((source) => {
     const preload = new Image();
     const ready = new Promise((resolve) => {

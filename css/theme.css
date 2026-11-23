@@ -360,3 +360,41 @@ button,a{-webkit-tap-highlight-color:transparent}
 }
 
 .contact-modal-direct{display:flex;flex-wrap:wrap;gap:7px 18px;margin:-4px 0 17px;padding:10px 12px;border:1px solid #d9e1e5;border-radius:10px;background:#f7f9fa;color:#4d5b64;font:500 11px/1.5 var(--sans)}.contact-modal-direct a{color:#087fa7;text-decoration:none}.contact-modal-direct a:hover{text-decoration:underline;text-underline-offset:3px}@media(max-width:520px){.contact-modal-direct{gap:5px 12px;margin:-2px 0 12px;padding:8px 10px;font-size:10px}}
+
+@media(max-width:600px){.sign-hero-highlights{display:none!important}}
+
+@media(max-width:560px){.sign-hero-content{display:flex;flex-direction:column;align-items:stretch;gap:22px}.sign-hero-copy{order:1}.sign-glass-stack{order:2;margin-top:0}}
+
+@media(max-width:560px){.sign-hero-content{gap:48px}.sign-glass-stack{margin-top:18px}}
+
+@media(max-width:560px){.sign-hero-content{gap:76px}.sign-glass-stack{margin-top:30px}}
+@media(max-width:760px){
+ .mobile-product-title{margin:2px 0 8px;color:#171d21;font:500 28px/1.1 var(--serif);letter-spacing:-.04em}
+ .site-header .main-nav .mobile-product-overview{min-height:48px;color:#0785ad;font-size:15px;font-weight:700;border-bottom:1px solid #dce3e6}
+ .site-header .main-nav .mobile-product-overview b{color:#89949a;font-size:13px}
+ .mobile-product-links{border-top:0}
+ .site-header .main-nav .mobile-product-group{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:1px solid #dce3e6}
+ .site-header .main-nav .mobile-product-group>summary{grid-column:1/-1;min-height:62px;padding:0;font-size:15px;color:#4b565c;border-bottom:0}
+ .mobile-product-group>summary span:first-child{color:inherit;font-size:15px;font-weight:500}
+ .mobile-product-group>summary span:last-child{color:#68757b;font-size:18px;transition:transform .2s}
+ .mobile-product-group[open]>summary span:last-child{transform:rotate(180deg)}
+ .site-header .main-nav .mobile-product-group>.mobile-product-category{grid-column:1/-1;min-height:45px;margin:0 0 10px;padding:0 12px;border:1px solid #dce3e6;border-radius:6px;background:#f5f7f7;color:#4d5a60;font-size:10px;letter-spacing:.08em}
+ .site-header .main-nav .mobile-product-group>.mobile-product-category span{margin-left:auto;color:#0785ad;font-size:16px}
+ .site-header .main-nav .mobile-product-group>.mobile-product-item{min-height:38px;padding:7px 8px;border:0;color:#66747a;font-size:12px}
+ .site-header .main-nav .mobile-product-group:not([open])>.mobile-product-category,.site-header .main-nav .mobile-product-group:not([open])>.mobile-product-item{display:none}
+}
+@media(max-width:760px){
+ .site-header .main-nav .mobile-product-title{text-transform:none;letter-spacing:-.04em}
+ .mobile-product-group[open]>summary span:first-child{transform:none!important}
+ .mobile-product-group>summary span:first-child{flex:1;transform:none!important}
+ .mobile-product-group>summary span:last-child{flex:0 0 auto;margin-left:12px}
+}
+@media(max-width:760px){.site-header .main-nav .mobile-product-group>.mobile-product-item{display:flex;min-width:0;min-height:38px;padding:7px 6px;overflow-wrap:anywhere}.site-header .main-nav .mobile-product-group:not([open])>.mobile-product-item{display:none}}
+
+/* Keep expanded product links in two compact columns in the mobile menu. */
+@media(max-width:760px){
+ .site-header .main-nav .mobile-product-group{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:row}
+ .site-header .main-nav .mobile-product-group>summary,
+ .site-header .main-nav .mobile-product-group>.mobile-product-category{grid-column:1/-1}
+ .site-header .main-nav .mobile-product-group>.mobile-product-item{grid-column:auto!important;width:auto!important;min-width:0;padding:7px 6px;line-height:1.35}
+}
