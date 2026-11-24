@@ -2,9 +2,17 @@
 .sign-glass{min-height:150px;padding:24px 30px;transition:transform .3s,box-shadow .3s,background .3s}
 .sign-glass:hover{transform:translateY(-7px) scale(1.02);box-shadow:0 24px 60px #0007,inset 0 1px #ffffff70;background:linear-gradient(115deg,#dfe9f15e,#a6b5c56d 55%,#ebd6c24a)}
 .home-category-card{height:310px}
-.home-category-card img{filter:grayscale(.4) brightness(.72)}
+.home-category-card img{filter:brightness(.8) saturate(1.02) contrast(1.03);image-rendering:auto}
+.home-category-card:hover img{filter:brightness(.86) saturate(1.08) contrast(1.04)}
+.home-service-card{display:block}
+.home-service-card-link{position:absolute;z-index:2;inset:0;display:block;color:inherit}
+.home-service-card-link>div{position:absolute;left:18px;right:18px;bottom:17px;padding-right:34px}
+.home-service-card-link>div>b{position:absolute;right:0;bottom:1px;width:29px;height:29px;border:1px solid #ffffff75;border-radius:50%;display:grid;place-items:center;color:#62c4e1;font-size:14px;transition:background .2s,color .2s,transform .2s}
+.home-service-card:hover .home-service-card-link>div>b{background:#0785ad;color:#fff;transform:rotate(45deg)}
+.home-service-external{position:absolute;z-index:4;top:12px;right:12px;display:inline-flex;align-items:center;gap:6px;max-width:calc(100% - 24px);padding:8px 10px;border:1px solid #ffffff7a;border-radius:20px;background:#087fa7;color:#fff;font:700 7px/1.2 var(--sans);letter-spacing:.08em;box-shadow:0 6px 16px #06151d40}
+.home-service-external:hover{background:#36b9e8;color:#08131a}
 .home-category-extended-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-@media(max-width:600px){.home-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.home-category-card{height:220px;border-radius:10px}.home-category-card>div{left:11px;right:11px;bottom:12px;padding-right:0}.home-category-card h3{font-size:16px}.home-category-card p{font-size:9px}.home-category-count{top:11px;left:11px;font-size:6px}.home-category-card>div>b{right:0;bottom:auto;top:-38px}.home-category-extended-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.home-category-extended-grid article{padding:14px 12px}.home-category-extended-grid h4{font-size:15px}.home-category-extended-grid p{font-size:9px}.sign-glass{min-height:92px}}
+@media(max-width:600px){.home-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.home-category-card{height:220px;border-radius:10px}.home-category-card>div,.home-service-card-link>div{left:11px;right:11px;bottom:12px;padding-right:0}.home-category-card h3{font-size:16px}.home-category-card p{font-size:9px}.home-category-count{top:11px;left:11px;font-size:6px}.home-category-card>div>b,.home-service-card-link>div>b{right:0;bottom:auto;top:-38px}.home-service-external{top:34px;right:9px;padding:6px 8px;font-size:6px}.home-category-extended-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.home-category-extended-grid article{padding:14px 12px}.home-category-extended-grid h4{font-size:15px}.home-category-extended-grid p{font-size:9px}.sign-glass{min-height:92px}}
 /* Tighter animated feature cards */
 .sign-glass-stack{gap:14px}
 .sign-glass{min-height:118px;padding:16px 24px}
@@ -89,3 +97,28 @@
  .sign-glass-stack{gap:9px}
  .sign-glass{min-height:70px;padding:9px 12px}
 }
+
+/* Centered client review cards and a smooth left-moving carousel. */
+.home-testimonials{display:block;padding:78px 7%;background:linear-gradient(135deg,#f8fafb 0%,#fff 48%,#f1f7f9 100%);text-align:center;overflow:hidden}
+.home-testimonials-intro{max-width:760px;margin:0 auto 34px}
+.home-testimonials-intro .eyebrow{margin-bottom:11px;color:#0785ad}
+.home-testimonials-intro h2{font:500 clamp(38px,5vw,62px)/1.06 var(--serif);letter-spacing:-.055em;margin:0 0 10px}
+.home-testimonials-intro h2 em{color:#0785ad;font-style:normal}
+.home-testimonials-intro>p:not(.eyebrow){max-width:590px;margin:0 auto;color:#64717a;font-size:14px;line-height:1.7}
+.home-testimonials-intro>a{display:none}
+.home-testimonial-viewport{max-width:1260px;margin:0 auto;overflow:hidden;text-align:left}
+.home-testimonial-track{display:flex;align-items:stretch;justify-content:center;gap:22px;width:max-content;min-width:100%;padding:6px 0 18px;will-change:transform}
+.home-testimonial-track.is-looping{justify-content:flex-start;animation:home-testimonial-marquee var(--testimonial-cycle,36s) linear infinite}
+.home-testimonial-track.is-looping:hover{animation-play-state:paused}
+.home-testimonial-card{flex:0 0 clamp(300px,32vw,418px);min-height:260px;padding:26px 28px 24px;border:1px solid #d9e2e7;border-left:1px solid #d9e2e7;border-radius:15px;background:#fff;box-shadow:0 12px 26px #14212b12;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.home-testimonial-card:hover{transform:translateY(-4px);box-shadow:0 18px 34px #14212b1b}
+.home-testimonial-card .home-testimonial-stars{color:#0785ad;font:700 17px/1 var(--sans);letter-spacing:.1em}
+.home-testimonial-card blockquote{margin:17px 0 25px;color:#39464e;font:400 16px/1.65 var(--sans);letter-spacing:0}
+.home-testimonial-card .quote-author{margin-top:auto;gap:13px}
+.home-testimonial-card .quote-author>span{width:48px;height:48px;border:1px solid #b8e4f0;border-radius:50%;background:#eef9fc;color:#087fa7;font-size:12px}
+.home-testimonial-card .quote-author b{font:600 14px/1.35 var(--sans);color:#1b252a}
+.home-testimonial-card .quote-author small{font:600 9px/1.4 var(--sans);letter-spacing:.08em;color:#74828a}
+@keyframes home-testimonial-marquee{to{transform:translateX(calc(-50% - 11px))}}
+@media(max-width:800px){.home-testimonials{padding:62px 5%}.home-testimonial-card{flex-basis:min(78vw,410px)}}
+@media(max-width:560px){.home-testimonials{padding:52px 0 46px}.home-testimonials-intro{padding:0 6%;margin-bottom:20px}.home-testimonials-intro h2{font-size:42px}.home-testimonials-intro>p:not(.eyebrow){font-size:12px}.home-testimonial-viewport{width:100%}.home-testimonial-track{justify-content:flex-start;gap:13px;padding:6px 6% 15px}.home-testimonial-card{flex-basis:84vw;min-height:225px;padding:21px 20px;border-radius:13px}.home-testimonial-card blockquote{font-size:14px;margin:14px 0 20px}.home-testimonial-card .quote-author b{font-size:12px}.home-testimonial-card .quote-author>span{width:42px;height:42px}}
+@media(prefers-reduced-motion:reduce){.home-testimonial-track.is-looping{animation:none;overflow-x:auto;scrollbar-width:none}}

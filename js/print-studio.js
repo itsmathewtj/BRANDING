@@ -1,5 +1,19 @@
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.main-nav');const currentPage = location.pathname.split('/').pop() || 'index.html';
+const testimonialTrack = document.querySelector('.home-testimonial-track');
+if (testimonialTrack && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const originalReviews = [...testimonialTrack.querySelectorAll('.home-testimonial-card')];
+  if (originalReviews.length > 1) {
+    originalReviews.forEach((review) => {
+      const copy = review.cloneNode(true);
+      copy.setAttribute('aria-hidden', 'true');
+      testimonialTrack.append(copy);
+    });
+    const cycleDistance = testimonialTrack.scrollWidth / 2;
+    testimonialTrack.style.setProperty('--testimonial-cycle', `${Math.max(24, cycleDistance / 34)}s`);
+    testimonialTrack.classList.add('is-looping');
+  }
+}
 const productNav = document.querySelector('.product-nav');
 if (navigation && productNav && !navigation.querySelector('.mobile-product-menu')) {
   const mobileMenu = document.createElement('section');
