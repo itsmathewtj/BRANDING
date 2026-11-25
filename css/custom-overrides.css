@@ -122,3 +122,43 @@
 @media(max-width:800px){.home-testimonials{padding:62px 5%}.home-testimonial-card{flex-basis:min(78vw,410px)}}
 @media(max-width:560px){.home-testimonials{padding:52px 0 46px}.home-testimonials-intro{padding:0 6%;margin-bottom:20px}.home-testimonials-intro h2{font-size:42px}.home-testimonials-intro>p:not(.eyebrow){font-size:12px}.home-testimonial-viewport{width:100%}.home-testimonial-track{justify-content:flex-start;gap:13px;padding:6px 6% 15px}.home-testimonial-card{flex-basis:84vw;min-height:225px;padding:21px 20px;border-radius:13px}.home-testimonial-card blockquote{font-size:14px;margin:14px 0 20px}.home-testimonial-card .quote-author b{font-size:12px}.home-testimonial-card .quote-author>span{width:42px;height:42px}}
 @media(prefers-reduced-motion:reduce){.home-testimonial-track.is-looping{animation:none;overflow-x:auto;scrollbar-width:none}}
+
+/* Compact, polished catalogue panel immediately following the services section. */
+.home-catalogues{padding:48px 7% 50px;background:linear-gradient(140deg,#f7f9fa 0%,#fff 52%,#f0f5f7 100%)}
+.home-catalogues-heading{margin-bottom:22px}
+.home-catalogues-heading .home-intro-label{margin-bottom:9px}
+.home-catalogues-heading h2{font-size:clamp(36px,4.2vw,50px)}
+.home-catalogues-heading>p:last-child{margin-top:9px}
+.home-catalogues-grid{max-width:1240px;gap:20px}
+.home-catalogue-card{display:flex;min-height:0;padding:0;border:1px solid #d7e1e6;border-radius:14px;background:#fff;color:inherit;text-decoration:none;box-shadow:0 10px 24px #16242b0d;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.home-catalogue-card:after{display:none}
+.home-catalogue-card:hover{transform:translateY(-3px);border-color:#9ccbd8;box-shadow:0 16px 30px #16242b14}
+.home-catalogue-card:focus-visible{outline:3px solid #31b9df;outline-offset:4px}
+.home-catalogue-card>.home-catalogue-art{position:relative;z-index:auto;max-width:none;width:100%;align-self:stretch;overflow:hidden;background:#e8eef1;aspect-ratio:16/9}
+.home-catalogue-art img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+.home-catalogue-pulse{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;pointer-events:none}
+.home-catalogue-pulse:before,.home-catalogue-pulse:after,.home-catalogue-pulse>i{position:absolute;width:clamp(170px,30vw,340px);aspect-ratio:1;border:2px solid rgba(255,255,255,.9);border-radius:50%;content:"";background:radial-gradient(circle,rgba(0,160,209,.18) 0 38%,rgba(25,178,216,.14) 39% 52%,rgba(87,204,224,.10) 53% 65%,rgba(190,238,246,.06) 66% 72%,transparent 73%);box-shadow:0 0 0 1px rgba(0,137,181,.34),0 0 26px rgba(0,157,202,.3);animation:catalogue-image-pulse 4.8s cubic-bezier(.2,.65,.35,1) infinite!important;will-change:transform,opacity}
+.home-catalogue-pulse:before{animation-delay:-3.2s!important}
+.home-catalogue-pulse:after{animation-delay:-1.6s!important}
+@keyframes catalogue-image-pulse{0%{transform:scale(.42);opacity:.86}72%,100%{transform:scale(1.3);opacity:0}}
+.home-catalogue-card>.home-catalogue-content{position:relative;z-index:auto;display:flex;max-width:none;width:auto;align-self:stretch;box-sizing:border-box;flex-direction:column;align-items:flex-start;gap:9px;padding:19px 21px 21px;background:#fff}
+.home-catalogue-content h3{margin:0;color:#111519;font:500 clamp(20px,2vw,25px)/1.2 var(--serif)}
+.home-catalogue-content p{max-width:560px;margin:0;color:#657078;font:400 11px/1.6 var(--sans)}
+.home-catalogue-action{display:inline-flex;align-items:center;align-self:center;gap:19px;margin-top:4px;padding:11px 13px;border:1px solid #111519;background:#111519;color:#fff;font:700 8px/1 var(--sans);letter-spacing:.1em;transition:background .2s,border-color .2s,transform .2s}
+.home-catalogue-action>span{color:#55c7e8;font-size:13px}
+.home-catalogue-card:hover .home-catalogue-action{transform:translateY(-2px);border-color:#087fa7;background:#087fa7}
+@media(max-width:650px){
+ .home-catalogues{padding:36px 5% 38px}
+ .home-catalogues-heading{margin-bottom:17px}
+ .home-catalogues-heading h2{font-size:clamp(31px,8vw,39px)}
+ .home-catalogues-heading>p:last-child{font-size:11px;line-height:1.5}
+ .home-catalogues-grid{grid-template-columns:1fr;gap:14px;max-width:520px}
+ .home-catalogue-card{min-width:0;border-radius:11px}
+ .home-catalogue-art{aspect-ratio:16/9}
+ .home-catalogue-content{gap:8px;padding:15px 15px 17px}
+ .home-catalogue-content .home-catalogue-index{font-size:7px;letter-spacing:.1em}
+ .home-catalogue-content h3{font-size:20px;line-height:1.2}
+ .home-catalogue-content p{font-size:10px;line-height:1.5}
+ .home-catalogue-action{gap:10px;padding:9px 11px;font-size:7px;letter-spacing:.06em}
+}
+@media(prefers-reduced-motion:reduce){.home-catalogue-pulse:before,.home-catalogue-pulse:after,.home-catalogue-pulse>i{animation:catalogue-image-pulse 4.8s linear infinite!important}}
