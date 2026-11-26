@@ -373,7 +373,7 @@ bindContactForm(contactModal.querySelector('.contact-modal-form'));
 
 document.addEventListener('click', (event) => {
   const trigger = event.target instanceof Element ? event.target.closest('a[href], [data-contact-modal]') : null;
-  if (!trigger || trigger.closest('.main-nav')) return;
+  if (!trigger || trigger.hasAttribute('data-no-contact-modal') || trigger.closest('.main-nav')) return;
   const href = trigger.getAttribute('href');
   if (!href) return;
   let destination;

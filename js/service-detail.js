@@ -1,4 +1,4 @@
-﻿const services = {
+const services = {
   'promotional-gifts': {
     title: 'Promotional Gifts', accent: 'made personal.', eyebrow: 'BRANDED GOODS / CORPORATE GIFTS',
     intro: 'Build a gift set around branded apparel, useful promotional products and seasonal pieces. SPOG’s range includes corporate gifts, Ramadan sets and employee welcome kits, with customization for the occasion.',
@@ -174,7 +174,7 @@ if (pageRoot) {
       <div class="footer-main">
         <div><h4>PRODUCTS</h4><a href="${root}products/books/index.html">Books &amp; documents</a><a href="${root}products/business/index.html">Business &amp; marketing</a><a href="${root}categories.html#packaging">Packaging</a><a href="${root}products/gifts/index.html">Promotional &amp; gifts</a><a href="${root}products/invitations/index.html">Invitations &amp; cards</a><a href="${root}products/signage/index.html">Banners &amp; signage</a></div>
         <div><h4>QUICK LINKS</h4><a href="${root}index.html#home-about">About the studio</a><a href="${root}work.html">Our work</a><a href="${root}process.html">Order process</a></div>
-        <div><h4>INFORMATION</h4><a href="${root}about.html">Our story</a><a href="${root}categories.html">Browse all products</a><a href="${root}index.html#order-process">How to order</a></div>
+        <div><h4>INFORMATION</h4><a href="${root}about.html">Our story</a><a href="${root}catalogues.html">Our catalogues</a><a href="${root}categories.html">Browse all products</a><a href="${root}index.html#order-process">How to order</a></div>
         <div><h4>HELP &amp; SUPPORT</h4><a href="${root}contact.html">Get a quote</a><a href="${root}contact.html">Artwork assistance</a><a href="${root}contact.html">Delivery enquiries</a><a href="mailto:info@edenday.ae">Email our team</a></div>
         <div><h4>CONTACT</h4><a href="tel:+971568258470">+971 56 825 8470</a><a href="mailto:info@edenday.ae">info@edenday.ae</a><p>Ajman, United Arab Emirates</p></div>
       </div>
@@ -183,7 +183,7 @@ if (pageRoot) {
         <div class="footer-panel-note"><span>MADE WITH CARE IN Ajman</span><p>Trusted by brands across the UAE to make thoughtful print, packaging and paper goods.</p></div>
         <div class="footer-project-cta"><span class="footer-project-eyebrow">HAVE A PROJECT IN MIND?</span><p>Tell us what you are making. We will help plan the next step.</p><a href="${root}contact.html">Start a conversation <span aria-hidden="true">-&gt;</span></a></div>
       </div>
-      <div class="footer-bottom"><span>© 2026 EDENDAY BRANDING &amp; ADVERTISING. Made with care in Ajman.</span><div><a href="${root}contact.html">Contact</a><a href="${root}index.html">Back to top ↑</a></div><span>GOOD PAPER. GOOD PEOPLE.</span></div>
+      <div class="footer-bottom"><span>© 2026 EDENDAY BRANDING &amp; ADVERTISING. All Rights Reserved. <span class="footer-credit">Design &amp; Development by <u>twopdle media</u>.</span></span><div><a href="${root}contact.html">Contact</a><a href="${root}faqs.html">FAQs</a><a href="${root}terms-and-conditions.html">Terms &amp; Conditions</a><a href="${root}privacy-policy.html">Privacy Policy</a><a href="${root}index.html">Back to top ↑</a></div><span>GOOD PAPER. GOOD PEOPLE.</span></div>
     </footer>`);
   }
 }

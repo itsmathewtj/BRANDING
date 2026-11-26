@@ -162,3 +162,14 @@
  .home-catalogue-action{gap:10px;padding:9px 11px;font-size:7px;letter-spacing:.06em}
 }
 @media(prefers-reduced-motion:reduce){.home-catalogue-pulse:before,.home-catalogue-pulse:after,.home-catalogue-pulse>i{animation:catalogue-image-pulse 4.8s linear infinite!important}}
+
+/* Match the referenced gradient pill style on the remaining home page CTAs. */
+.sign-hero-link,.home-catalogue-action,.home-event-link,.sign-outline-link{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:12px!important;min-height:46px!important;max-width:100%;padding:0 24px!important;border:1px solid rgba(255,255,255,.48)!important;border-radius:999px!important;background:linear-gradient(110deg,#0788b5 0%,#10a9d0 55%,#35c5df 100%)!important;color:#fff!important;font:700 10px/1.1 var(--sans)!important;letter-spacing:.055em!important;text-decoration:none!important;box-shadow:0 6px 17px rgba(5,127,171,.23)!important;transition:transform .2s ease,box-shadow .2s ease,filter .2s ease!important}
+.sign-hero-link:hover,.home-catalogue-card:hover .home-catalogue-action,.home-event-link:hover,.sign-outline-link:hover{transform:translateY(-2px)!important;filter:brightness(1.06)!important;box-shadow:0 9px 22px rgba(5,127,171,.3)!important}
+.sign-hero-link:active,.home-catalogue-action:active,.home-event-link:active,.sign-outline-link:active{transform:scale(.98)!important;filter:brightness(.97)!important}
+.sign-hero-link:focus-visible,.home-catalogue-card:focus-visible .home-catalogue-action,.home-event-link:focus-visible,.sign-outline-link:focus-visible{outline:3px solid rgba(15,169,208,.4)!important;outline-offset:3px!important}
+.sign-hero-link>span,.home-catalogue-action>span,.home-event-link>span,.sign-outline-link>span{color:#d7f7ff!important;font-size:14px!important}
+.home-catalogue-action{align-self:center!important;margin-top:4px!important}
+@media(max-width:600px){.sign-hero-link,.home-catalogue-action,.home-event-link,.sign-outline-link{min-height:42px!important;padding:0 18px!important;font-size:9px!important}.home-catalogue-action{padding:0 14px!important;font-size:8px!important}}
+.home-catalogues-heading h2 a{color:inherit;text-decoration:none}
+.home-catalogues-heading h2 a:hover em{color:#056d91}

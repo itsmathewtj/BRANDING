@@ -20,3 +20,14 @@
 /* Slightly larger collection ticker labels for readability. */
 .pc-section-track a{font-size:12px}
 @media(max-width:650px){.pc-section-track a{font-size:10px}}
+
+/* Prevent the collection benefit cards from squeezing their text on phones. */
+@media(max-width:650px){
+ .pc-extra-info{grid-template-columns:minmax(0,1fr);gap:10px;padding:14px 6vw 22px}
+ .pc-extra-info article{min-width:0;grid-template-columns:28px minmax(0,1fr);gap:12px;padding:15px 14px;border-radius:8px}
+ .pc-extra-info article>span{padding-top:2px}
+ .pc-extra-info article>div{min-width:0}
+ .pc-extra-info h2{font-size:18px;line-height:1.25;overflow-wrap:break-word}
+ .pc-extra-info p{font-size:11px;line-height:1.55;overflow-wrap:anywhere}
+}
+
