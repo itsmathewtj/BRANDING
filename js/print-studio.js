@@ -320,17 +320,21 @@ successModal.addEventListener('close', () => {
 successModal.addEventListener('click', (event) => { if (event.target === successModal) closeSuccessModal(); });
 successModal.addEventListener('cancel', (event) => { event.preventDefault(); closeSuccessModal(); });
 
+const EDENDAY_WHATSAPP_NUMBER = '971568258470';
 const submitContactForm = (form) => {
   const message = form.querySelector('.project-form-message, .sign-form-message, .contact-modal-message');
   message?.classList.remove('form-submit-error');
+  const formData = new FormData(form);
+  const enquiryLines = [...formData.entries()]
+    .filter(([key, value]) => key !== 'enquiry_source' && String(value).trim())
+    .map(([key, value]) => `${key.replaceAll('_', ' ')}: ${String(value).trim()}`);
+  const whatsappUrl = `https://wa.me/${EDENDAY_WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `EDENDAY project enquiry\n${enquiryLines.join('\n')}`
+  )}`;
+  window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  if (contactModal.open) closeContactModal();
   form.reset();
-  if (message) message.textContent = '';
-  if (contactModal.open) {
-    closeContactModal();
-    window.setTimeout(() => showSuccessModal(), 460);
-  } else {
-    showSuccessModal();
-  }
+  if (message) message.textContent = 'Your enquiry is ready to send in WhatsApp.';
   return true;
 };
 const bindContactForm = (form) => form?.addEventListener('submit', async (event) => {
