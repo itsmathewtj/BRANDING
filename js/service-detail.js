@@ -183,7 +183,7 @@ if (pageRoot) {
         <div class="footer-panel-note"><span>MADE WITH CARE IN Ajman</span><p>Trusted by brands across the UAE to make thoughtful print, packaging and paper goods.</p></div>
         <div class="footer-project-cta"><span class="footer-project-eyebrow">HAVE A PROJECT IN MIND?</span><p>Tell us what you are making. We will help plan the next step.</p><a href="${root}contact.html">Start a conversation <span aria-hidden="true">-&gt;</span></a></div>
       </div>
-      <div class="footer-bottom"><span>© 2026 EDENDAY BRANDING &amp; ADVERTISING. All Rights Reserved. <span class="footer-credit">Design &amp; Development by <u>twopdle media</u>.</span></span><div><a href="${root}contact.html">Contact</a><a href="${root}faqs.html">FAQs</a><a href="${root}terms-and-conditions.html">Terms &amp; Conditions</a><a href="${root}privacy-policy.html">Privacy Policy</a><a href="${root}index.html">Back to top ↑</a></div><span>GOOD PAPER. GOOD PEOPLE.</span></div>
+      <div class="footer-bottom"><span>© 2026 EDENDAY BRANDING &amp; ADVERTISING. All Rights Reserved. <span class="footer-credit">Design &amp; Development by <u>twopdle media</u>.</span></span><div><a href="${root}contact.html" data-no-contact-modal>Contact</a><a href="${root}faqs.html">FAQs</a><a href="${root}terms-and-conditions.html">Terms &amp; Conditions</a><a href="${root}privacy-policy.html">Privacy Policy</a><a href="${root}index.html">Back to top ↑</a></div><span>GOOD PAPER. GOOD PEOPLE.</span></div>
     </footer>`);
   }
 }
