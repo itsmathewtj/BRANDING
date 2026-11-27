@@ -427,3 +427,11 @@ button,a{-webkit-tap-highlight-color:transparent}
 .site-header .header-cta{min-width:118px!important;min-height:39px!important;height:39px!important;padding:0 18px!important;border:0!important;border-radius:4px!important;background:#303234!important;color:#fff!important;font-size:9px!important;letter-spacing:.04em!important;box-shadow:none!important}
 .site-header .header-cta:hover{background:#08648a!important;transform:translateY(-1px)!important}
 @media(max-width:760px){.site-header .header-cta{min-width:100px!important;min-height:36px!important;height:36px!important;padding:0 12px!important;font-size:8px!important}}
+
+/* Keep the mobile quote action visible and docked beside the menu. */
+@media(max-width:760px){
+ .site-header{display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:10px!important}
+ .site-header>.mobile-header-quote{display:inline-flex!important;order:2!important;flex:0 0 auto!important;align-items:center!important;justify-content:center!important;align-self:center!important;margin:0 0 0 auto!important;min-height:36px!important;padding:0 12px!important;border:1px solid rgba(255,255,255,.48)!important;border-radius:999px!important;background:linear-gradient(110deg,#0788b5 0%,#10a9d0 55%,#35c5df 100%)!important;background-size:200% 200%!important;color:#fff!important;font-family:var(--sans,Arial,sans-serif)!important;font-size:10px!important;font-weight:700!important;line-height:1!important;letter-spacing:.04em!important;text-transform:uppercase!important;white-space:nowrap!important;box-shadow:0 5px 16px rgba(5,127,171,.22)!important;animation:mobileQuoteGradient 5s ease-in-out infinite,mobileQuoteGlow 2.6s ease-in-out infinite!important}
+ .site-header>.menu-toggle{display:flex!important;order:3!important;flex:0 0 38px!important;align-items:center!important;justify-content:center!important;align-self:center!important;margin:0!important}
+}
+@media(max-width:410px){.site-header>.menu-toggle{flex-basis:35px!important}.site-header>.mobile-header-quote{min-height:33px!important;padding:0 9px!important;font-size:9px!important}}
