@@ -23,11 +23,13 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/home-feature-images.css">
   <link rel="stylesheet" href="css/custom-overrides.css">
+  <link rel="stylesheet" href="css/home-landing-hero.css">
+  <link rel="stylesheet" href="css/home-section-backgrounds.css">
   <link rel="icon" type="image/png" href="img/Favicon.png">
   <link rel="stylesheet" href="css/floating-contact.css" data-floating-contact-styles>
 </head>
 
-<body>
+<body class="home-landing-page">
   <nav class="floating-contact" aria-label="Contact EDENDAY">
     <a class="floating-contact-link floating-contact-call" href="tel:+971568258470"
       aria-label="Call EDENDAY at +971 56 825 8470" title="Call EDENDAY">
@@ -157,58 +159,50 @@
 
   <main id="home">
     <section class="sign-hero" aria-labelledby="sign-title">
-      <div class="sign-hero-backdrop"></div>
-      <div class="sign-hero-image-wall" aria-hidden="true">
-        <img class="hero-background-image is-zooming" src="img/6.png" alt="">
+      <div class="sign-hero-backdrop" aria-hidden="true"></div>
+      <div class="sign-hero-slides" aria-hidden="true">
+        <img src="img/desktop.landing.png" alt="">
+        <img src="img/desktop.landing2.png" alt="">
+        <img src="img/desktop.landing3.png" alt="">
+        <img src="img/desktop.landing4.png" alt="">
+        <img src="img/desktop.landing5.png" alt="">
+        <img src="img/desktop.landing6.png" alt="">
+        <img src="img/desktop.landing7.png" alt="">
+      </div>
+      <div class="sign-hero-slides sign-hero-slides-mobile" aria-hidden="true">
+        <img src="img/mobile.landing.png" alt="">
+        <img src="img/mobile.landing2.png" alt="">
+        <img src="img/mobile.landing3.png" alt="">
+        <img src="img/mobile.landing4.png" alt="">
+        <img src="img/mobile.landing5.png" alt="">
+        <img src="img/mobile.landing6.png" alt="">
+        <img src="img/mobile.landing7.png" alt="">
       </div>
       <div class="sign-hero-content">
         <div class="sign-hero-copy">
-          <p class="sign-eyebrow"><i></i> UAE'S PREMIER PRINTING PARTNER</p>
-          <h1 id="sign-title">Branding<br><span>Advertising.</span></h1>
-          <div class="sign-hero-actions"><a class="sign-hero-link sign-hero-link-secondary" href="#categories">EXPLORE
-              PRODUCTS <span>↗</span></a><a class="sign-hero-link" href="contact.html">GET A QUOTE <span>↗</span></a>
+          <p class="sign-eyebrow"><i aria-hidden="true"></i> UAE'S PREMIER PRINTING PARTNER</p>
+          <h1 id="sign-title">Branding &amp;<br><span>Advertising.</span></h1>
+          <p class="sign-hero-description">Innovative printing solutions<br>to make your brand stand out.</p>
+          <div class="sign-hero-actions">
+            <a class="sign-hero-link" href="contact.html">Get a Quote <span aria-hidden="true">&#8594;</span></a>
+            <a class="sign-video-link" href="work.html"><span class="sign-video-play" aria-hidden="true">&#9654;</span>Watch Video</a><a class="sign-services-link" href="categories.html"><span aria-hidden="true">&#8599;</span>Services</a>
           </div>
         </div>
-        <div class="sign-glass-stack">
-          <div class="sign-glass"><img src="img/products/books-certificates.webp"
-              alt="Carefully printed certificate"><span aria-hidden="true">✳</span><b>Quality, considered</b><small>01 /
-              MADE WITH CARE</small></div>
-          <div class="sign-glass"><img src="img/products/business-business-cards.webp"
-              alt="Custom business cards made for a brand"><span aria-hidden="true">◇</span><b>Custom to your
-              brand</b><small>02 / MADE FOR YOU</small></div>
-          <div class="sign-glass"><img src="img/products/packaging-paper-bags.webp"
-              alt="Branded paper bag prepared for delivery"><span aria-hidden="true">↗</span><b>From idea to
-              arrival</b><small>03 / MADE TO DELIVER</small></div>
-        </div>
       </div>
-      <div class="sign-hero-highlights" aria-label="Print service highlights">
-        <article><span aria-hidden="true">01</span>
-          <div><b>Custom formats</b><small>Made for your brief</small></div>
+      <div class="sign-hero-benefits" aria-label="Why choose EDENDAY">
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5v38M5 24h38M10.6 10.6l26.8 26.8m0-26.8L10.6 37.4"/><circle cx="24" cy="24" r="4"/></svg>
+          <span>Premium Quality<br>Prints</span>
         </article>
-        <article><span aria-hidden="true">02</span>
-          <div><b>Premium finishes</b><small>Foil, embossing &amp; more</small></div>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M27 4 11 27h12l-2 17 16-24H25z"/></svg>
+          <span>Fast &amp; Reliable<br>Service</span>
         </article>
-        <article><span aria-hidden="true">03</span>
-          <div><b>Artwork proofing</b><small>Approve before production</small></div>
-        </article>
-        <article><span aria-hidden="true">04</span>
-          <div><b>Flexible quantities</b><small>Short and larger runs</small></div>
-        </article>
-        <article><span aria-hidden="true">05</span>
-          <div><b>In-house production</b><small>Care at every stage</small></div>
-        </article>
-        <article><span aria-hidden="true">06</span>
-          <div><b>UAE-wide delivery</b><small>Across the Emirates</small></div>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m4 17 9-8 9 8-9 8zM44 17l-9-8-9 8 9 8zM13 25l11 11 11-11M18 30l-4 4 5 5 5-5m0 0 4 4 5-5-4-4m-9 1 5 5 5-5"/></svg>
+          <span>Your Trusted<br>Brand Partner</span>
         </article>
       </div>
-      <div class="sign-mobile-proof" aria-label="Edenday at a glance">
-        <div><b>1,500+</b><span>Happy Clients</span></div>
-        <div><b>3+</b><span>Years in UAE</span></div>
-        <div><b>100+</b><span>Product Types</span></div>
-        <div><b>4.9/5</b><span>Trusted &amp; Top-rated</span></div>
-      </div>
-      <div class="sign-hero-bottom"><span>Ajman · UAE</span><span>SCROLL TO EXPLORE ↓</span><span>PRINT / OBJECT /
-          STORY</span></div>
     </section>
     <section class="home-category-extended home-category-extended-independent">
       <div class="home-category-extended-heading">

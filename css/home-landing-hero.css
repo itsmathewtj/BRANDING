@@ -1,0 +1,128 @@
+/* Homepage landing hero rebuilt to match the supplied desktop and mobile references. */
+.sign-hero{
+  position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:center;
+  width:100%;height:clamp(540px,calc(100svh - 180px),660px);min-height:540px;overflow:hidden;
+  padding:65px clamp(48px,8.3vw,140px) 165px;color:#f8fbff;background:#020b12 url('../img/desktop.landing.png') center center/cover no-repeat
+}
+.sign-hero-backdrop{display:none}
+.sign-hero:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(0,8,14,.2) 0%,rgba(0,8,14,.07) 46%,transparent 75%)}
+.sign-hero-content{position:relative;z-index:1;width:100%;max-width:1440px;margin:0 auto;display:block}
+.sign-hero-copy{width:min(57%,780px);max-width:none}
+.sign-eyebrow{display:inline-flex;align-items:center;gap:15px;margin:0 0 32px;padding:12px 22px;border:1px solid rgba(87,217,241,.27);border-left-color:#08d1e9;border-radius:999px;color:#f4f8fa;font:600 13px/1 var(--sans);letter-spacing:.2em}
+.sign-eyebrow i{width:13px;height:13px;flex:none;margin:0;border-radius:50%;background:#08c9e7;box-shadow:0 0 14px #08c9e777;animation:pulse-dot 2s ease-in-out infinite}
+.sign-hero h1{margin:0 0 20px;color:#f7f9fb;font:500 clamp(68px,6.5vw,104px)/.98 var(--serif);letter-spacing:-.055em}
+.sign-hero h1 span{color:#09b9e7;font:inherit}
+.sign-hero-description{margin:0 0 38px;color:#d1d7dc;font:400 clamp(19px,2vw,30px)/1.33 var(--sans);letter-spacing:-.025em}
+.sign-hero-actions{display:flex;align-items:center;gap:30px;margin:0}
+.sign-hero-actions .sign-hero-link{min-width:266px;min-height:78px;justify-content:center;gap:18px;padding:0 34px;border:0;border-radius:999px;background:linear-gradient(110deg,#08b9e7,#039fda);box-shadow:0 12px 30px #00a9dd34;color:#fff;font:600 20px/1 var(--sans);letter-spacing:0;text-transform:none}
+.sign-hero-actions .sign-hero-link>span{font-size:26px;color:#fff}
+.sign-hero-actions .sign-hero-link:hover{background:linear-gradient(110deg,#22c8ee,#08a9df);transform:translateY(-2px)}
+.sign-video-link{display:inline-flex;align-items:center;gap:17px;color:#f5f7fa;font:500 19px/1 var(--sans);white-space:nowrap;transition:color .2s}
+.sign-video-link:hover{color:#32c9ee}
+.sign-video-play{display:grid;place-items:center;width:64px;height:64px;padding-left:4px;border:2px solid #08b9e7;border-radius:50%;color:#fff;font-size:20px;transition:background .2s,transform .2s}
+.sign-video-link:hover .sign-video-play{background:#08b9e733;transform:scale(1.05)}
+.sign-hero-benefits{position:absolute;z-index:1;left:clamp(48px,8.3vw,140px);bottom:45px;width:min(960px,70%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;color:#f1f4f8}
+.sign-hero-benefits article{display:flex;align-items:center;gap:20px;min-height:64px;padding:0 24px;border-right:1px solid rgba(225,236,245,.58);font:400 17px/1.4 var(--sans)}
+.sign-hero-benefits article:first-child{padding-left:0}
+.sign-hero-benefits article:last-child{border-right:0}
+.sign-hero-benefits svg{width:46px;height:46px;flex:none;fill:none;stroke:#02bfea;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+@media(min-width:1101px){.home-landing-page .sign-hero-benefits{bottom:14px}.home-landing-page .sign-hero-benefits article{gap:15px;font-size:14px;line-height:1.35}.home-landing-page .sign-hero-benefits svg{width:36px;height:36px}}
+@media(max-width:1100px){
+ .sign-hero{padding-left:6%;padding-right:6%}
+ .sign-hero-copy{width:min(64%,710px)}
+ .sign-hero-benefits{left:6%;width:min(900px,78%)}
+ .sign-hero-benefits article{gap:13px;padding:0 16px;font-size:14px}
+ .sign-hero-benefits svg{width:38px;height:38px}
+}
+@media(max-width:760px){
+ .sign-hero{height:auto;min-height:max(850px,100svh);padding:58px 6% 190px;background-image:url('../img/mobile.landing.png');background-position:center bottom;background-size:100% auto}
+ .sign-hero:after{background:linear-gradient(180deg,rgba(1,9,15,.12) 0%,rgba(1,9,15,.04) 48%,rgba(1,9,15,.2) 100%)}
+ .sign-hero-content{margin:0}
+ .sign-hero-copy{width:100%;max-width:560px}
+ .sign-eyebrow{gap:10px;margin-bottom:25px;padding:10px 15px;font-size:9px;letter-spacing:.16em}
+ .sign-eyebrow i{width:10px;height:10px}
+ .sign-hero h1{margin-bottom:15px;font-size:clamp(46px,11.8vw,72px);line-height:.98;letter-spacing:-.06em}
+ .sign-hero-description{margin-bottom:26px;font-size:clamp(16px,4.3vw,21px);line-height:1.35}
+ .sign-hero-actions{gap:17px;flex-wrap:wrap}
+ .sign-hero-actions .sign-hero-link{min-width:0;min-height:54px;padding:0 23px;font-size:15px}
+ .sign-hero-actions .sign-hero-link>span{font-size:20px}
+ .sign-video-link{gap:10px;font-size:14px}
+ .sign-video-play{width:46px;height:46px;font-size:14px}
+ .sign-hero-benefits{left:6%;right:6%;bottom:26px;width:auto;grid-template-columns:repeat(3,minmax(0,1fr))}
+ .sign-hero-benefits article{min-height:64px;gap:7px;padding:0 8px;font-size:10px;line-height:1.35}
+ .sign-hero-benefits article:first-child{padding-left:0}
+ .sign-hero-benefits svg{width:28px;height:28px}
+}
+@media(max-width:380px){
+ .sign-hero{min-height:820px;padding-top:45px;padding-bottom:174px}
+ .sign-hero-actions{gap:12px}
+ .sign-hero-actions .sign-hero-link{min-height:50px;padding:0 17px;font-size:13px}
+ .sign-video-link{gap:8px;font-size:12px}
+ .sign-video-play{width:40px;height:40px}
+ .sign-hero-benefits article{font-size:9px;padding:0 5px}
+ .sign-hero-benefits svg{width:24px;height:24px}
+}
+@media(prefers-reduced-motion:reduce){.sign-eyebrow i{animation:none}}
+@media(max-width:760px){
+ .home-landing-page .sign-hero{height:auto;min-height:93svh;padding:62px 6% 50px;justify-content:flex-start;background-size:cover;background-position:center center}
+ .home-landing-page .sign-hero-copy{margin:0!important;text-align:left!important}
+ .home-landing-page .sign-hero-actions{display:flex!important;flex-direction:row!important;justify-content:flex-start!important;align-items:center!important;flex-wrap:wrap!important;gap:30px!important;margin:0!important}
+ .home-landing-page .sign-eyebrow{display:inline-flex!important;justify-content:flex-start!important;margin:0 0 30px!important;padding:12px 15px}
+ .home-landing-page .sign-hero h1{font-size:clamp(40px,12.2vw,56px);font-family:var(--serif);font-weight:500;line-height:1.02;letter-spacing:-.055em;margin-bottom:30px}
+ .home-landing-page .sign-eyebrow{padding:12px 15px}
+ .home-landing-page .sign-hero-description{margin-bottom:29px}
+ .home-landing-page .sign-hero-actions .sign-hero-link{width:min(175px,58vw)!important;min-width:min(175px,58vw)!important;height:50px!important;min-height:50px!important;padding:0 16px!important;gap:14px!important;font-size:14px!important}
+ .home-landing-page .sign-video-play{width:40px;height:40px}
+ .home-landing-page .sign-hero-benefits{display:none}
+}
+@media(max-width:410px){.home-landing-page .sign-hero{min-height:93svh;padding:62px 5% 45px}}
+/* Keep the portrait landing artwork exclusive to mobile viewports. */
+@media(max-width:600px){.home-landing-page .sign-hero{background-image:url('../img/mobile.landing.png')}}
+@media(min-width:601px){.home-landing-page .sign-hero{background-image:url('../img/desktop.landing.png')}}
+.sign-services-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:106px;height:44px;padding:0 16px;border:1px solid #08b9e7;border-radius:999px;background:rgba(2,11,18,.62);color:#f5f7fa;font:600 12px/1 var(--sans);white-space:nowrap;transition:background .2s,border-color .2s,transform .2s}
+.sign-services-link>span{color:#28c6e9;font-size:15px;line-height:1}
+.sign-services-link:hover{transform:translateY(-1px);background:rgba(8,185,231,.14);border-color:#32c9ee}
+@media(min-width:761px){.home-landing-page .sign-video-link{display:none}}
+@media(max-width:760px){
+ .home-landing-page .sign-hero-actions{gap:14px!important}
+ .home-landing-page .sign-hero-actions .sign-hero-link{width:min(132px,44vw)!important;min-width:min(132px,44vw)!important;padding:0 12px!important;gap:8px!important}
+ .home-landing-page .sign-video-link{display:none}
+ .home-landing-page .sign-services-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:122px;height:50px;padding:0 10px;border:1px solid #08b9e7;border-radius:999px;background:rgba(2,11,18,.62);color:#f5f7fa;font:500 14px/1 var(--sans);white-space:nowrap;transition:background .2s,border-color .2s}
+ .home-landing-page .sign-services-link>span{color:#28c6e9;font-size:18px;line-height:1}
+ .home-landing-page .sign-services-link:hover{background:rgba(8,185,231,.14)}
+}
+@media(max-width:380px){
+ .home-landing-page .sign-hero-actions{gap:8px!important}
+ .home-landing-page .sign-hero-actions .sign-hero-link{width:124px!important;min-width:124px!important}
+ .home-landing-page .sign-services-link{width:122px}
+}
+@media(max-width:760px){
+ .home-landing-page .site-header>.mobile-header-quote{width:118px!important;min-width:118px!important;height:44px!important;min-height:44px!important;padding:0 12px!important;border:1.5px solid #05c9ed!important;border-radius:999px!important;background:transparent!important;background-image:none!important;color:#fff!important;font-size:13px!important;font-weight:500!important;letter-spacing:0!important;box-shadow:none!important;animation:none!important}
+ .home-landing-page .site-header>.mobile-header-quote:hover{background:rgba(5,201,237,.08)!important}
+}
+@media(max-width:760px){
+ .home-landing-page .site-header>.mobile-header-quote:link,.home-landing-page .site-header>.mobile-header-quote:visited,.home-landing-page .site-header>.mobile-header-quote:hover,.home-landing-page .site-header>.mobile-header-quote:active{color:#000!important;-webkit-text-fill-color:#000!important}
+}
+
+/* A soft rounded pulse highlights the primary Get a Quote action on every device. */
+.home-landing-page .sign-hero-actions .sign-hero-link {
+ position:relative;
+ isolation:isolate;
+}
+.home-landing-page .sign-hero-actions .sign-hero-link::before {
+ position:absolute;
+ z-index:-1;
+ inset:-3px;
+ border:2px solid rgba(33,199,235,.72);
+ border-radius:inherit;
+ content:"";
+ pointer-events:none;
+ animation:hero-quote-pulse 2.4s ease-out infinite;
+}
+@keyframes hero-quote-pulse {
+ 0% { opacity:.72; transform:scale(1); }
+ 80%,100% { opacity:0; transform:scale(1.16); }
+}
+@media(prefers-reduced-motion:reduce) {
+ .home-landing-page .sign-hero-actions .sign-hero-link::before { animation:none; opacity:0; }
+}
